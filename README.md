@@ -13,23 +13,6 @@ Weekly curated arXiv papers relevant to AI/LLM agent developers.
 
 ## Latest (2026-02-02 to 2026-02-09)
 
-Full weekly list (with 1–2 sentence summaries): [lists/awesome-agents-2026-02-02-to-2026-02-09.md](lists/awesome-agents-2026-02-02-to-2026-02-09.md)
-
-| Category | Count |
-|---|---|
-| Safety | 10 |
-| Evaluation | 7 |
-| Tooling | 7 |
-| Multi-Agent | 6 |
-| Applications | 6 |
-| Memory | 4 |
-| RAG | 3 |
-| Observability | 2 |
-| Planning | 2 |
-| Other | 2 |
-| **Total in-scope** | **49** |
-| *Out of scope* | *13* |
-
 <details>
 <summary><strong>Observability</strong> (2)</summary>
 
@@ -58,37 +41,31 @@ Full weekly list (with 1–2 sentence summaries): [lists/awesome-agents-2026-02-
 <details>
 <summary><strong>Tooling</strong> (7)</summary>
 
-| Paper |
-|---|
-| **[TraceCoder: A Trace-Driven Multi-Agent Framework for Automated Debugging](https://arxiv.org/pdf/2602.06875v1)** - Uses runtime traces to find and fix bugs in LLM-generated code through a multi-agent observe-analyze-repair loop, helping developers automate debugging with 34% better fix rates. |
-| **[SeeUPO: Sequence-Level Agentic-RL with Convergence Guarantees](https://arxiv.org/pdf/2602.06554v1)** - A critic-free RL algorithm that actually converges in multi-turn agent training, helping developers avoid the training instability that current PPO/GRPO methods suffer from. |
-| **[RocqSmith: Can Automatic Optimization Forge Better Proof Agents?](https://arxiv.org/pdf/2602.05762v1)** - Tests automated agent optimization methods on theorem proving. Finds that simple few-shot bootstrapping beats fancier optimizers, helping developers set realistic expectations for auto-tuning agents. |
-| **[Generative Ontology: When Structured Knowledge Learns to Create](https://arxiv.org/pdf/2602.05636v1)** - Constrains LLM generation with executable schemas and multi-agent roles so outputs are structurally valid, helping developers get creative results without hallucinated nonsense. |
-| **[LinguistAgent: A Reflective Multi-Model Platform for Automated Linguistic Annotation](https://arxiv.org/pdf/2602.05493v1)** - A dual-agent Annotator-Reviewer workflow for annotation that supports prompting, RAG, and fine-tuning, helping developers automate complex labeling tasks with built-in quality checks. |
-| **[Structured Context Engineering for File-Native Agentic Systems](https://arxiv.org/pdf/2602.05447v1)** - Tests how format (YAML, JSON, Markdown) and file-based context affect agent accuracy across 9,649 experiments. Model capability matters far more than format, helping developers skip format bike-shedding. |
-| **[M2-Miner: Multi-Agent Enhanced MCTS for Mobile GUI Agent Data Mining](https://arxiv.org/pdf/2602.05429v1)** - Automatically mines high-quality training trajectories for GUI agents using multi-agent MCTS, helping developers build better mobile agents without expensive manual annotation. |
+- **[TraceCoder: A Trace-Driven Multi-Agent Framework for Automated Debugging](https://arxiv.org/pdf/2602.06875v1)** - Uses runtime traces to find and fix bugs in LLM-generated code through a multi-agent observe-analyze-repair loop, helping developers automate debugging with 34% better fix rates.
+- **[SeeUPO: Sequence-Level Agentic-RL with Convergence Guarantees](https://arxiv.org/pdf/2602.06554v1)** - A critic-free RL algorithm that actually converges in multi-turn agent training, helping developers avoid the training instability that current PPO/GRPO methods suffer from.
+- **[RocqSmith: Can Automatic Optimization Forge Better Proof Agents?](https://arxiv.org/pdf/2602.05762v1)** - Tests automated agent optimization methods on theorem proving. Finds that simple few-shot bootstrapping beats fancier optimizers, helping developers set realistic expectations for auto-tuning agents.
+- **[Generative Ontology: When Structured Knowledge Learns to Create](https://arxiv.org/pdf/2602.05636v1)** - Constrains LLM generation with executable schemas and multi-agent roles so outputs are structurally valid, helping developers get creative results without hallucinated nonsense.
+- **[LinguistAgent: A Reflective Multi-Model Platform for Automated Linguistic Annotation](https://arxiv.org/pdf/2602.05493v1)** - A dual-agent Annotator-Reviewer workflow for annotation that supports prompting, RAG, and fine-tuning, helping developers automate complex labeling tasks with built-in quality checks.
+- **[Structured Context Engineering for File-Native Agentic Systems](https://arxiv.org/pdf/2602.05447v1)** - Tests how format (YAML, JSON, Markdown) and file-based context affect agent accuracy across 9,649 experiments. Model capability matters far more than format, helping developers skip format bike-shedding.
+- **[M2-Miner: Multi-Agent Enhanced MCTS for Mobile GUI Agent Data Mining](https://arxiv.org/pdf/2602.05429v1)** - Automatically mines high-quality training trajectories for GUI agents using multi-agent MCTS, helping developers build better mobile agents without expensive manual annotation.
 
 </details>
 
 <details>
 <summary><strong>Memory</strong> (4)</summary>
 
-| Title | Date | arXiv | PDF |
-|---|---:|:--:|:--:|
-| BudgetMem: Learning Query-Aware Budget-Tier Routing for Runtime Agent Memory | 2026-02-05 | [arXiv](http://arxiv.org/abs/2602.06025v1) | [PDF](https://arxiv.org/pdf/2602.06025v1) |
-| Learning to Share: Selective Memory for Efficient Parallel Agentic Systems | 2026-02-05 | [arXiv](http://arxiv.org/abs/2602.05965v1) | [PDF](https://arxiv.org/pdf/2602.05965v1) |
-| Graph-based Agent Memory: Taxonomy, Techniques, and Applications | 2026-02-05 | [arXiv](http://arxiv.org/abs/2602.05665v1) | [PDF](https://arxiv.org/pdf/2602.05665v1) |
-| ProcMEM: Learning Reusable Procedural Memory from Experience via Non-Parametric PPO for LLM Agents | 2026-02-02 | [arXiv](http://arxiv.org/abs/2602.01869v1) | [PDF](https://arxiv.org/pdf/2602.01869v1) |
+- **[BudgetMem: Learning Query-Aware Budget-Tier Routing for Runtime Agent Memory](https://arxiv.org/pdf/2602.06025v1)** - [arXiv](http://arxiv.org/abs/2602.06025v1)
+- **[Learning to Share: Selective Memory for Efficient Parallel Agentic Systems](https://arxiv.org/pdf/2602.05965v1)** - [arXiv](http://arxiv.org/abs/2602.05965v1)
+- **[Graph-based Agent Memory: Taxonomy, Techniques, and Applications](https://arxiv.org/pdf/2602.05665v1)** - [arXiv](http://arxiv.org/abs/2602.05665v1)
+- **[ProcMEM: Learning Reusable Procedural Memory from Experience via Non-Parametric PPO for LLM Agents](https://arxiv.org/pdf/2602.01869v1)** - [arXiv](http://arxiv.org/abs/2602.01869v1)
 
 </details>
 
 <details>
 <summary><strong>Planning</strong> (2)</summary>
 
-| Title | Date | arXiv | PDF |
-|---|---:|:--:|:--:|
-| ProAct: Agentic Lookahead in Interactive Environments | 2026-02-05 | [arXiv](http://arxiv.org/abs/2602.05327v1) | [PDF](https://arxiv.org/pdf/2602.05327v1) |
-| Autonomous Question Formation for Large Language Model-Driven AI Systems | 2026-02-02 | [arXiv](http://arxiv.org/abs/2602.01556v1) | [PDF](https://arxiv.org/pdf/2602.01556v1) |
+- **[ProAct: Agentic Lookahead in Interactive Environments](https://arxiv.org/pdf/2602.05327v1)** - [arXiv](http://arxiv.org/abs/2602.05327v1)
+- **[Autonomous Question Formation for Large Language Model-Driven AI Systems](https://arxiv.org/pdf/2602.01556v1)** - [arXiv](http://arxiv.org/abs/2602.01556v1)
 
 </details>
 
