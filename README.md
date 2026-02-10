@@ -56,10 +56,12 @@ Weekly curated arXiv papers relevant to AI/LLM agent developers.
 <details>
 <summary><strong>Memory</strong> (4)</summary>
 
-- **[BudgetMem: Learning Query-Aware Budget-Tier Routing for Runtime Agent Memory](https://arxiv.org/pdf/2602.06025v1)** - [arXiv](http://arxiv.org/abs/2602.06025v1)
-- **[Learning to Share: Selective Memory for Efficient Parallel Agentic Systems](https://arxiv.org/pdf/2602.05965v1)** - [arXiv](http://arxiv.org/abs/2602.05965v1)
-- **[Graph-based Agent Memory: Taxonomy, Techniques, and Applications](https://arxiv.org/pdf/2602.05665v1)** - [arXiv](http://arxiv.org/abs/2602.05665v1)
-- **[ProcMEM: Learning Reusable Procedural Memory from Experience via Non-Parametric PPO for LLM Agents](https://arxiv.org/pdf/2602.01869v1)** - [arXiv](http://arxiv.org/abs/2602.01869v1)
+| Paper |
+|---|
+| **[BudgetMem: Learning Query-Aware Budget-Tier Routing for Runtime Agent Memory](https://arxiv.org/pdf/2602.06025v1)** - [arXiv](http://arxiv.org/abs/2602.06025v1) |
+| **[Learning to Share: Selective Memory for Efficient Parallel Agentic Systems](https://arxiv.org/pdf/2602.05965v1)** - [arXiv](http://arxiv.org/abs/2602.05965v1) |
+| **[Graph-based Agent Memory: Taxonomy, Techniques, and Applications](https://arxiv.org/pdf/2602.05665v1)** - [arXiv](http://arxiv.org/abs/2602.05665v1) |
+| **[ProcMEM: Learning Reusable Procedural Memory from Experience via Non-Parametric PPO for LLM Agents](https://arxiv.org/pdf/2602.01869v1)** - [arXiv](http://arxiv.org/abs/2602.01869v1) |
 
 </details>
 
