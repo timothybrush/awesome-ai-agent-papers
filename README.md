@@ -28,7 +28,7 @@ Brand-new papers published in 2026, curated weekly for AI/LLM agent developers w
 
 ## Latest (2026-02-02 to 2026-02-09)
 
-<details>
+<details open>
 <summary><strong>Tooling</strong> (10)</summary>
 
 | Paper |
