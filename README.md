@@ -1,1 +1,119 @@
-# awesome-ai-agent-papers
+# Awesome AI Agent Papers
+
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+Weekly curated arXiv papers relevant to AI/LLM agent developers.
+
+## Table of Contents
+
+- [Latest (2026-02-02 to 2026-02-09)](#latest-2026-02-02-to-2026-02-09)
+  - [Observability](#observability)
+  - [Evaluation](#evaluation)
+  - [Tooling](#tooling)
+  - [Memory](#memory)
+  - [Planning](#planning)
+  - [Multi-Agent](#multi-agent)
+  - [RAG](#rag)
+  - [Safety](#safety)
+  - [Applications](#applications)
+  - [Other](#other)
+- [Archive](#archive)
+- [Contributing](#contributing)
+- [License](#license)
+
+
+### Observability
+
+- **From Features to Actions: Explainability in Traditional and Agentic AI Systems** (2026-02-06) — Shows that standard feature-attribution explanations don't work for debugging agent failures. Trace-based diagnostics catch execution breakdowns much better, helping developers pinpoint where multi-step agent runs go wrong. [arXiv](http://arxiv.org/abs/2602.06841v1) | [PDF](https://arxiv.org/pdf/2602.06841v1)
+- **TrajAD: Trajectory Anomaly Detection for Trustworthy LLM Agents** (2026-02-06) — A specialized verifier that detects and locates errors in agent execution trajectories at runtime, helping developers enable precise rollback-and-retry instead of restarting from scratch. [arXiv](http://arxiv.org/abs/2602.06443v1) | [PDF](https://arxiv.org/pdf/2602.06443v1)
+
+### Evaluation
+
+- **Agentic Uncertainty Reveals Agentic Overconfidence** (2026-02-06) — Tests whether agents can predict their own success. Spoiler: agents that succeed only 22% of the time predict 77% success, helping developers understand when not to trust agent self-assessments. [arXiv](http://arxiv.org/abs/2602.06948v1) | [PDF](https://arxiv.org/pdf/2602.06948v1)
+- **AIRS-Bench: a Suite of Tasks for Frontier AI Research Science Agents** (2026-02-06) — 20 research tasks from real ML papers covering idea generation, experiments, and refinement, helping developers benchmark science agents on realistic end-to-end challenges. [arXiv](http://arxiv.org/abs/2602.06855v1) | [PDF](https://arxiv.org/pdf/2602.06855v1)
+- **JADE: Expert-Grounded Dynamic Evaluation for Open-Ended Professional Tasks** (2026-02-06) — Evaluates agent outputs by breaking responses into individual claims and checking each against expert knowledge, helping developers catch failure modes that holistic LLM judges miss. [arXiv](http://arxiv.org/abs/2602.06486v1) | [PDF](https://arxiv.org/pdf/2602.06486v1)
+- **Completing Missing Annotation: Multi-Agent Debate for Accurate Relevant Assessment** (2026-02-06) — Uses multi-agent debate to find missing labels in IR benchmarks, achieving 95% accuracy with only 3.5% human involvement. Helps developers build fairer retrieval evaluations. [arXiv](http://arxiv.org/abs/2602.06526v1) | [PDF](https://arxiv.org/pdf/2602.06526v1)
+- **Capture the Flags: Family-Based Evaluation of Agentic LLMs** (2026-02-05) — Generates families of equivalent CTF challenges via code transformations to test if agents truly understand exploits or just memorize patterns, helping developers evaluate agent robustness. [arXiv](http://arxiv.org/abs/2602.05523v1) | [PDF](https://arxiv.org/pdf/2602.05523v1)
+- **PieArena: Frontier Language Agents Achieve MBA-Level Negotiation** (2026-02-05) — A negotiation benchmark where frontier LLM agents match or beat MBA students. Reveals cross-model differences in deception, accuracy, and trustworthiness that simple win-rate metrics hide. [arXiv](http://arxiv.org/abs/2602.05302v1) | [PDF](https://arxiv.org/pdf/2602.05302v1)
+- **ES-MemEval: Benchmarking Conversational Agents on Personalized Long-Term Emotional Support** (2026-02-02) — A benchmark that tests how well agents remember things over long conversations, helping developers spot memory weaknesses like forgetting past context or hallucinating outdated info. [arXiv](http://arxiv.org/abs/2602.01885v1) | [PDF](https://arxiv.org/pdf/2602.01885v1)
+
+### Tooling
+
+- **TraceCoder: A Trace-Driven Multi-Agent Framework for Automated Debugging** (2026-02-06) — Uses runtime traces to find and fix bugs in LLM-generated code through a multi-agent observe-analyze-repair loop, helping developers automate debugging with 34% better fix rates. [arXiv](http://arxiv.org/abs/2602.06875v1) | [PDF](https://arxiv.org/pdf/2602.06875v1)
+- **SeeUPO: Sequence-Level Agentic-RL with Convergence Guarantees** (2026-02-06) — A critic-free RL algorithm that actually converges in multi-turn agent training, helping developers avoid the training instability that current PPO/GRPO methods suffer from. [arXiv](http://arxiv.org/abs/2602.06554v1) | [PDF](https://arxiv.org/pdf/2602.06554v1)
+- **RocqSmith: Can Automatic Optimization Forge Better Proof Agents?** (2026-02-05) — Tests automated agent optimization methods on theorem proving. Finds that simple few-shot bootstrapping beats fancier optimizers, helping developers set realistic expectations for auto-tuning agents. [arXiv](http://arxiv.org/abs/2602.05762v1) | [PDF](https://arxiv.org/pdf/2602.05762v1)
+- **Generative Ontology: When Structured Knowledge Learns to Create** (2026-02-05) — Constrains LLM generation with executable schemas and multi-agent roles so outputs are structurally valid, helping developers get creative results without hallucinated nonsense. [arXiv](http://arxiv.org/abs/2602.05636v1) | [PDF](https://arxiv.org/pdf/2602.05636v1)
+- **LinguistAgent: A Reflective Multi-Model Platform for Automated Linguistic Annotation** (2026-02-05) — A dual-agent Annotator-Reviewer workflow for annotation that supports prompting, RAG, and fine-tuning, helping developers automate complex labeling tasks with built-in quality checks. [arXiv](http://arxiv.org/abs/2602.05493v1) | [PDF](https://arxiv.org/pdf/2602.05493v1)
+- **Structured Context Engineering for File-Native Agentic Systems** (2026-02-05) — Tests how format (YAML, JSON, Markdown) and file-based context affect agent accuracy across 9,649 experiments. Model capability matters far more than format, helping developers skip format bike-shedding. [arXiv](http://arxiv.org/abs/2602.05447v1) | [PDF](https://arxiv.org/pdf/2602.05447v1)
+- **M2-Miner: Multi-Agent Enhanced MCTS for Mobile GUI Agent Data Mining** (2026-02-05) — Automatically mines high-quality training trajectories for GUI agents using multi-agent MCTS, helping developers build better mobile agents without expensive manual annotation. [arXiv](http://arxiv.org/abs/2602.05429v1) | [PDF](https://arxiv.org/pdf/2602.05429v1)
+
+### Memory
+
+- **BudgetMem: Learning Query-Aware Budget-Tier Routing for Runtime Agent Memory** (2026-02-05) — Gives agents a router that picks cheap or expensive memory processing per query, helping developers control the cost-accuracy trade-off of agent memory at runtime. [arXiv](http://arxiv.org/abs/2602.06025v1) | [PDF](https://arxiv.org/pdf/2602.06025v1)
+- **Learning to Share: Selective Memory for Efficient Parallel Agentic Systems** (2026-02-05) — Adds a shared memory bank across parallel agent teams with a learned controller that decides what's worth sharing, helping developers cut redundant work when running multiple agent teams. [arXiv](http://arxiv.org/abs/2602.05965v1) | [PDF](https://arxiv.org/pdf/2602.05965v1)
+- **Graph-based Agent Memory: Taxonomy, Techniques, and Applications** (2026-02-05) — A comprehensive survey of graph-based memory for agents covering extraction, storage, retrieval, and evolution, helping developers pick the right memory architecture for their use case. [arXiv](http://arxiv.org/abs/2602.05665v1) | [PDF](https://arxiv.org/pdf/2602.05665v1)
+- **ProcMEM: Learning Reusable Procedural Memory from Experience via Non-Parametric PPO for LLM Agents** (2026-02-02) — Lets agents save step-by-step "how-to" skills from past runs and reuse them later without retraining, helping developers cut repeated computation and make agents more consistent. [arXiv](http://arxiv.org/abs/2602.01869v1) | [PDF](https://arxiv.org/pdf/2602.01869v1)
+
+### Planning
+
+- **ProAct: Agentic Lookahead in Interactive Environments** (2026-02-05) — Trains agents to "think ahead" by distilling environment search into causal reasoning chains. A 4B model trained with ProAct beats all open-source baselines and rivals closed-source models. [arXiv](http://arxiv.org/abs/2602.05327v1) | [PDF](https://arxiv.org/pdf/2602.05327v1)
+- **Autonomous Question Formation for Large Language Model-Driven AI Systems** (2026-02-02) — Teaches agents to ask themselves the right questions before acting, helping developers build agents that adapt to new situations instead of waiting for human prompts. [arXiv](http://arxiv.org/abs/2602.01556v1) | [PDF](https://arxiv.org/pdf/2602.01556v1)
+
+### Multi-Agent
+
+- **DyTopo: Dynamic Topology Routing for Multi-Agent Reasoning via Semantic Matching** (2026-02-05) — Rebuilds the communication graph between agents at each reasoning round based on what each agent needs and offers, helping developers avoid fixed patterns that waste messages. [arXiv](http://arxiv.org/abs/2602.06039v1) | [PDF](https://arxiv.org/pdf/2602.06039v1)
+- **CommCP: Efficient Multi-Agent Coordination via LLM-Based Communication with Conformal Prediction** (2026-02-05) — Uses conformal prediction to calibrate inter-agent messages so agents don't distract each other with noise, helping developers build more reliable multi-robot coordination. [arXiv](http://arxiv.org/abs/2602.06038v1) | [PDF](https://arxiv.org/pdf/2602.06038v1)
+- **AgenticPay: A Multi-Agent LLM Negotiation System for Buyer-Seller Transactions** (2026-02-05) — A benchmark for multi-agent buyer-seller negotiation through natural language with 110+ tasks, helping developers test how well agents handle strategic economic interactions. [arXiv](http://arxiv.org/abs/2602.06008v1) | [PDF](https://arxiv.org/pdf/2602.06008v1)
+- **ROMA: Recursive Open Meta-Agent Framework for Long-Horizon Multi-Agent Systems** (2026-02-02) — Breaks big tasks into subtask trees that run in parallel across multiple agents, helping developers handle long, complex workflows without blowing up the context window. [arXiv](http://arxiv.org/abs/2602.01848v1) | [PDF](https://arxiv.org/pdf/2602.01848v1)
+- **INDIBATOR: Diverse and Fact-Grounded Individuality for Multi-Agent Debate in Molecular Discovery** (2026-02-02) — Gives each agent a unique research profile instead of a generic "reviewer" role, helping developers get higher-quality debate and discovery from multi-agent setups. [arXiv](http://arxiv.org/abs/2602.01815v1) | [PDF](https://arxiv.org/pdf/2602.01815v1)
+- **ORCH: many analyses, one merge — a deterministic multi-agent orchestrator** (2026-02-02) — Multiple LLMs analyze a problem independently, then a merge agent picks the best answer. Deterministic and training-free, helping developers get reproducible multi-agent results. [arXiv](http://arxiv.org/abs/2602.01797v1) | [PDF](https://arxiv.org/pdf/2602.01797v1)
+
+### RAG
+
+- **CompactRAG: Reducing LLM Calls and Token Overhead in Multi-Hop Question Answering** (2026-02-05) — Converts a corpus into atomic QA pairs offline, then resolves multi-hop questions with just 2 LLM calls regardless of hop count, helping developers slash RAG costs while keeping accuracy. [arXiv](http://arxiv.org/abs/2602.05728v1) | [PDF](https://arxiv.org/pdf/2602.05728v1)
+- **Mitigating Hallucination in Financial Retrieval-Augmented Generation via Fine-Grained Knowledge Verification** (2026-02-05) — Breaks financial answers into atomic facts and checks each against retrieved docs using RL rewards, helping developers build RAG systems that stay faithful to source data. [arXiv](http://arxiv.org/abs/2602.05723v1) | [PDF](https://arxiv.org/pdf/2602.05723v1)
+- **SOPRAG: Multi-view Graph Experts Retrieval for Industrial Standard Operating Procedures** (2026-02-02) — Replaces flat chunk-based RAG with graph experts that understand entity relationships, causality, and process flows, helping developers build more accurate retrieval for structured documents. [arXiv](http://arxiv.org/abs/2602.01858v1) | [PDF](https://arxiv.org/pdf/2602.01858v1)
+
+### Safety
+
+- **LLM Active Alignment: A Nash Equilibrium Perspective** (2026-02-06) — Models multi-agent LLM populations as a game where agents choose which user groups to align with, helping developers predict and prevent scenarios where some user groups get completely ignored. [arXiv](http://arxiv.org/abs/2602.06836v1) | [PDF](https://arxiv.org/pdf/2602.06836v1)
+- **Confundo: Learning to Generate Robust Poison for Practical RAG Systems** (2026-02-06) — Trains an LLM to generate RAG poison that survives real-world content processing and query variation, helping developers stress-test their RAG defenses against realistic attacks. [arXiv](http://arxiv.org/abs/2602.06616v1) | [PDF](https://arxiv.org/pdf/2602.06616v1)
+- **Malicious Agent Skills in the Wild: A Large-Scale Security Empirical Study** (2026-02-06) — Analyzes 98K agent skills from community registries and confirms 157 malicious ones averaging 4 vulnerabilities each, helping developers understand the real threat of third-party agent plugins. [arXiv](http://arxiv.org/abs/2602.06547v1) | [PDF](https://arxiv.org/pdf/2602.06547v1)
+- **Subgraph Reconstruction Attacks on Graph RAG Deployments with Practical Defenses** (2026-02-06) — Shows how attackers can reconstruct knowledge graphs from Graph RAG outputs using multi-turn probing, helping developers protect proprietary knowledge bases from extraction. [arXiv](http://arxiv.org/abs/2602.06495v1) | [PDF](https://arxiv.org/pdf/2602.06495v1)
+- **Zero-Trust Runtime Verification for Agentic Payment Protocols** (2026-02-06) — Adds consume-once mandate semantics to AI agent payment protocols, helping developers prevent replay and redirect attacks in autonomous transactions with ~3.8ms overhead. [arXiv](http://arxiv.org/abs/2602.06345v1) | [PDF](https://arxiv.org/pdf/2602.06345v1)
+- **Trustworthy AI Software Engineers** (2026-02-06) — Defines what makes an AI coding agent trustworthy across technical quality, transparency, epistemic humility, and ethics, helping developers set clear criteria for evaluating AI SE tools. [arXiv](http://arxiv.org/abs/2602.06310v1) | [PDF](https://arxiv.org/pdf/2602.06310v1)
+- **Agent2Agent Threats in Safety-Critical LLM Assistants: A Human-Centric Taxonomy** (2026-02-05) — Maps attack paths in agent-to-agent communication (like Google A2A) for automotive LLM assistants, helping developers model threats from driver distraction to unauthorized vehicle control. [arXiv](http://arxiv.org/abs/2602.05877v1) | [PDF](https://arxiv.org/pdf/2602.05877v1)
+- **Learning to Inject: Automated Prompt Injection via Reinforcement Learning** (2026-02-05) — Uses RL to auto-generate prompt injection attacks that transfer across GPT-5, Claude, and Gemini on AgentDojo, helping developers red-team their agent defenses at scale. [arXiv](http://arxiv.org/abs/2602.05746v1) | [PDF](https://arxiv.org/pdf/2602.05746v1)
+- **Human Society-Inspired Approaches to Agentic AI Security: The 4C Framework** (2026-02-02) — Organizes agentic security risks into four layers (Core, Connection, Cognition, Compliance), helping developers think beyond prompt injection to broader trust and governance issues. [arXiv](http://arxiv.org/abs/2602.01942v1) | [PDF](https://arxiv.org/pdf/2602.01942v1)
+- **MAGIC: A Co-Evolving Attacker-Defender Adversarial Game for Robust LLM Safety** (2026-02-02) — Pits an attacker agent against a defender agent in a co-evolving RL game, helping developers stress-test safety alignment against novel attack patterns that static datasets miss. [arXiv](http://arxiv.org/abs/2602.01539v2) | [PDF](https://arxiv.org/pdf/2602.01539v2)
+
+### Applications
+
+- **Identifying Adversary Tactics and Techniques in Malware Binaries with an LLM Agent** (2026-02-06) — An LLM agent that finds attack techniques in stripped malware binaries using incremental context retrieval, achieving 93% precision on function-level TTP recognition. [arXiv](http://arxiv.org/abs/2602.06325v1) | [PDF](https://arxiv.org/pdf/2602.06325v1)
+- **RuleSmith: Multi-Agent LLMs for Automated Game Balancing** (2026-02-06) — LLM agents play a civ-style game via self-play while Bayesian optimization tunes the rules, helping developers automate game balancing without manual playtesting. [arXiv](http://arxiv.org/abs/2602.06232v1) | [PDF](https://arxiv.org/pdf/2602.06232v1)
+- **A Dual-Loop Agent Framework for Automated Vulnerability Reproduction** (2026-02-05) — An LLM agent that generates PoC exploits from CVE descriptions with a dual-loop for strategy replanning vs. code fixing, achieving 83% reproduction success on real vulnerabilities. [arXiv](http://arxiv.org/abs/2602.05721v1) | [PDF](https://arxiv.org/pdf/2602.05721v1)
+- **AI Agent Systems for Supply Chains: Structured Decision Prompts and Memory Retrieval** (2026-02-05) — LLM-based multi-agent system for inventory management that retrieves similar past experiences to adapt ordering decisions, outperforming benchmarks across various supply chain scenarios. [arXiv](http://arxiv.org/abs/2602.05524v1) | [PDF](https://arxiv.org/pdf/2602.05524v1)
+- **H-AdminSim: A Multi-Agent Simulator for Realistic Hospital Administrative Workflows** (2026-02-05) — Simulates end-to-end hospital admin workflows with multi-agent LLMs and FHIR integration, helping developers test LLM-driven automation in healthcare settings. [arXiv](http://arxiv.org/abs/2602.05407v1) | [PDF](https://arxiv.org/pdf/2602.05407v1)
+- **From Perception to Action: Spatial AI Agents and World Models** (2026-02-02) — A large survey connecting agentic architectures with spatial tasks like robotics and navigation, helping developers understand where memory, planning, and world models fit in embodied agents. [arXiv](http://arxiv.org/abs/2602.01644v1) | [PDF](https://arxiv.org/pdf/2602.01644v1)
+
+### Other
+
+- **Emulating Aggregate Human Choice Behavior and Biases with GPT Conversational Agents** (2026-02-05) — Shows that GPT-4/5 agents reproduce human cognitive biases with precision in interactive decisions, helping developers understand when LLM agents might inherit and amplify human biases. [arXiv](http://arxiv.org/abs/2602.05597v1) | [PDF](https://arxiv.org/pdf/2602.05597v1)
+- **Gender Dynamics and Homophily in a Social Network of LLM Agents** (2026-02-02) — Studies how 70K+ autonomous LLM agents form social clusters on Chirper.ai, showing developers that emergent group behavior and bias can appear even without explicit programming. [arXiv](http://arxiv.org/abs/2602.02606v1) | [PDF](https://arxiv.org/pdf/2602.02606v1)
+
+<details>
+<summary></summary>
+
+
+</details>
+
+
+## Contributing
+
+- Add new weekly lists under `lists/` and link them from the `Archive` section.
+- Keep entries in the format `**Title** (YYYY-MM-DD) — 1–2 sentences. [arXiv] | [PDF]`.
+- Assign exactly one category per paper.
+
+## License
+
+MIT — see `LICENSE`.
