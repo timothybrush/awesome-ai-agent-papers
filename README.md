@@ -58,15 +58,15 @@ Full weekly list (with 1–2 sentence summaries): [lists/awesome-agents-2026-02-
 <details>
 <summary><strong>Tooling</strong> (7)</summary>
 
-| Title | Date | arXiv | PDF |
-|---|---:|:--:|:--:|
-| TraceCoder: A Trace-Driven Multi-Agent Framework for Automated Debugging | 2026-02-06 | [arXiv](http://arxiv.org/abs/2602.06875v1) | [PDF](https://arxiv.org/pdf/2602.06875v1) |
-| SeeUPO: Sequence-Level Agentic-RL with Convergence Guarantees | 2026-02-06 | [arXiv](http://arxiv.org/abs/2602.06554v1) | [PDF](https://arxiv.org/pdf/2602.06554v1) |
-| RocqSmith: Can Automatic Optimization Forge Better Proof Agents? | 2026-02-05 | [arXiv](http://arxiv.org/abs/2602.05762v1) | [PDF](https://arxiv.org/pdf/2602.05762v1) |
-| Generative Ontology: When Structured Knowledge Learns to Create | 2026-02-05 | [arXiv](http://arxiv.org/abs/2602.05636v1) | [PDF](https://arxiv.org/pdf/2602.05636v1) |
-| LinguistAgent: A Reflective Multi-Model Platform for Automated Linguistic Annotation | 2026-02-05 | [arXiv](http://arxiv.org/abs/2602.05493v1) | [PDF](https://arxiv.org/pdf/2602.05493v1) |
-| Structured Context Engineering for File-Native Agentic Systems | 2026-02-05 | [arXiv](http://arxiv.org/abs/2602.05447v1) | [PDF](https://arxiv.org/pdf/2602.05447v1) |
-| M2-Miner: Multi-Agent Enhanced MCTS for Mobile GUI Agent Data Mining | 2026-02-05 | [arXiv](http://arxiv.org/abs/2602.05429v1) | [PDF](https://arxiv.org/pdf/2602.05429v1) |
+| Paper |
+|---|
+| **[TraceCoder: A Trace-Driven Multi-Agent Framework for Automated Debugging](https://arxiv.org/pdf/2602.06875v1)** - Uses runtime traces to find and fix bugs in LLM-generated code through a multi-agent observe-analyze-repair loop, helping developers automate debugging with 34% better fix rates. |
+| **[SeeUPO: Sequence-Level Agentic-RL with Convergence Guarantees](https://arxiv.org/pdf/2602.06554v1)** - A critic-free RL algorithm that actually converges in multi-turn agent training, helping developers avoid the training instability that current PPO/GRPO methods suffer from. |
+| **[RocqSmith: Can Automatic Optimization Forge Better Proof Agents?](https://arxiv.org/pdf/2602.05762v1)** - Tests automated agent optimization methods on theorem proving. Finds that simple few-shot bootstrapping beats fancier optimizers, helping developers set realistic expectations for auto-tuning agents. |
+| **[Generative Ontology: When Structured Knowledge Learns to Create](https://arxiv.org/pdf/2602.05636v1)** - Constrains LLM generation with executable schemas and multi-agent roles so outputs are structurally valid, helping developers get creative results without hallucinated nonsense. |
+| **[LinguistAgent: A Reflective Multi-Model Platform for Automated Linguistic Annotation](https://arxiv.org/pdf/2602.05493v1)** - A dual-agent Annotator-Reviewer workflow for annotation that supports prompting, RAG, and fine-tuning, helping developers automate complex labeling tasks with built-in quality checks. |
+| **[Structured Context Engineering for File-Native Agentic Systems](https://arxiv.org/pdf/2602.05447v1)** - Tests how format (YAML, JSON, Markdown) and file-based context affect agent accuracy across 9,649 experiments. Model capability matters far more than format, helping developers skip format bike-shedding. |
+| **[M2-Miner: Multi-Agent Enhanced MCTS for Mobile GUI Agent Data Mining](https://arxiv.org/pdf/2602.05429v1)** - Automatically mines high-quality training trajectories for GUI agents using multi-agent MCTS, helping developers build better mobile agents without expensive manual annotation. |
 
 </details>
 
