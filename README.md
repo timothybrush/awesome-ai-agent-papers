@@ -10,7 +10,7 @@
 <br/>
 
 <div align="center">
-    <strong>Hand-picked research papers on the AI/LLM agent ecosystem, published in 2026 and sourced from arXiv.
+    <strong>Hand-picked research papers on the AI agent ecosystem, published in 2026 and sourced from arXiv.
     </strong>
     <br />
     <br />
@@ -32,7 +32,9 @@
 
 # Awesome AI Agent Papers
 
-Brand-new papers published in 2026, curated weekly for AI/LLM agent developers who want to stay ahead of the curve.
+A curated collection of the latest research papers from the AI agent ecosystem, covering core topics like **multi-agent coordination**, **memory & RAG**, **tooling**, **evaluation & observability**, and **security**.
+
+Whether you're an AI/ML engineer building agent systems, a researcher exploring new architectures, or a developer integrating LLM agents into products, these papers help you stay on top of what's actually working, what's breaking, and where the field is heading. Updated weekly from arXiv.
 
 <details open>
 <summary><strong>Tooling</strong> (10)</summary>
@@ -54,6 +56,8 @@ Brand-new papers published in 2026, curated weekly for AI/LLM agent developers w
 
 </details>
 
+<br>
+
 <details>
 <summary><strong>Memory & RAG</strong> (8)</summary>
 
@@ -71,6 +75,8 @@ Brand-new papers published in 2026, curated weekly for AI/LLM agent developers w
 | **[ProcMEM: Learning Reusable Procedural Memory from Experience via Non-Parametric PPO for LLM Agents](https://arxiv.org/pdf/2602.01869v1)** - Agents save step-by-step "how-to" skills from past runs and reuse them later without retraining. Cuts repeated computation and makes agents more consistent across similar tasks. | <a href="https://arxiv.org/abs/2602.01869v1"><img src="https://img.shields.io/badge/arXiv-2602.01869-b31b1b.svg" alt="arXiv" /></a> |
 
 </details>
+
+<br>
 
 <details>
 <summary><strong>Multi-Agent</strong> (9)</summary>
@@ -91,6 +97,8 @@ Brand-new papers published in 2026, curated weekly for AI/LLM agent developers w
 
 </details>
 
+<br>
+
 <details>
 <summary><strong>Eval & Observability</strong> (10)</summary>
 
@@ -110,6 +118,8 @@ Brand-new papers published in 2026, curated weekly for AI/LLM agent developers w
 | **[ES-MemEval: Benchmarking Conversational Agents on Personalized Long-Term Emotional Support](https://arxiv.org/pdf/2602.01885v1)** - Tests how well agents remember things over long conversations. Exposes memory weaknesses like forgetting past context or hallucinating outdated info. | <a href="https://arxiv.org/abs/2602.01885v1"><img src="https://img.shields.io/badge/arXiv-2602.01885-b31b1b.svg" alt="arXiv" /></a> |
 
 </details>
+
+<br>
 
 <details>
 <summary><strong>Security</strong> (12)</summary>
