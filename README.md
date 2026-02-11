@@ -22,7 +22,7 @@
   <img alt="VoltAgent" src="https://cdn.voltagent.dev/website/logo/logo-2-svg.svg" height="20" />
 </a>
 
-![Papers Count](https://img.shields.io/badge/Research%20Papers-49+-b31b1b)
+![Papers Count](https://img.shields.io/badge/Research%20Papers-43+-b31b1b)
 ![Last Update](https://img.shields.io/github/last-commit/VoltAgent/awesome-ai-agent-papers?label=Last%20update)
 [![Discord](https://img.shields.io/discord/1361559153780195478.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://s.voltagent.dev/discord)
 
@@ -36,16 +36,16 @@ Whether you're an AI engineer building agent systems, a researcher exploring new
 
 ### Table of Contents
 
-- [Multi-Agent](#multi-agent) (9)
+- [Multi-Agent](#multi-agent) (8)
 - [Memory & RAG](#memory--rag) (8)
 - [Eval & Observability](#eval--observability) (10)
-- [Agent Tooling](#agent-tooling) (9)
-- [AI Agent Security](#ai-agent-security) (12)
+- [Agent Tooling](#agent-tooling) (6)
+- [AI Agent Security](#ai-agent-security) (10)
 
 <br>
 
 <details open id="multi-agent">
-<summary><h3 style="display:inline">Multi-Agent (9)</h3></summary>
+<summary><h3 style="display:inline">Multi-Agent (8)</h3></summary>
 
 <br>
 
@@ -57,7 +57,6 @@ Whether you're an AI engineer building agent systems, a researcher exploring new
 | **[AgenticPay: A Multi-Agent LLM Negotiation System for Buyer-Seller Transactions](https://arxiv.org/pdf/2602.06008v1)** - Introduces a 110+ task benchmark to evaluate how well multi-agent LLM systems handle buyer-seller negotiation through natural language. | <a href="https://arxiv.org/abs/2602.06008v1"><img src="https://img.shields.io/badge/arXiv-2602.06008-b31b1b.svg" alt="arXiv" /></a> |
 | **[Gender Dynamics and Homophily in a Social Network of LLM Agents](https://arxiv.org/pdf/2602.02606v1)** - Analyzes social network formation among 70K+ autonomous LLM agents on Chirper.ai to study emergent group behavior and bias. | <a href="https://arxiv.org/abs/2602.02606v1"><img src="https://img.shields.io/badge/arXiv-2602.02606-b31b1b.svg" alt="arXiv" /></a> |
 | **[ROMA: Recursive Open Meta-Agent Framework for Long-Horizon Multi-Agent Systems](https://arxiv.org/pdf/2602.01848v1)** - Proposes breaking large tasks into subtask trees that run in parallel across multiple agents to handle long-horizon workflows without exceeding context windows. | <a href="https://arxiv.org/abs/2602.01848v1"><img src="https://img.shields.io/badge/arXiv-2602.01848-b31b1b.svg" alt="arXiv" /></a> |
-| **[INDIBATOR: Diverse and Fact-Grounded Individuality for Multi-Agent Debate in Molecular Discovery](https://arxiv.org/pdf/2602.01815v1)** - Explores assigning each agent a unique research profile built from real publication history instead of generic roles to improve multi-agent debate in molecular discovery. | <a href="https://arxiv.org/abs/2602.01815v1"><img src="https://img.shields.io/badge/arXiv-2602.01815-b31b1b.svg" alt="arXiv" /></a> |
 | **[ORCH: many analyses, one merge — a deterministic multi-agent orchestrator](https://arxiv.org/pdf/2602.01797v1)** - Proposes a deterministic multi-agent orchestrator where multiple LLMs analyze a problem independently and a merge agent selects the best answer without any training. | <a href="https://arxiv.org/abs/2602.01797v1"><img src="https://img.shields.io/badge/arXiv-2602.01797-b31b1b.svg" alt="arXiv" /></a> |
 | **[H-AdminSim: A Multi-Agent Simulator for Realistic Hospital Administrative Workflows](https://arxiv.org/pdf/2602.05407v1)** - Simulates end-to-end hospital administrative workflows with multi-agent LLMs and FHIR integration to test LLM-driven automation in healthcare settings. | <a href="https://arxiv.org/abs/2602.05407v1"><img src="https://img.shields.io/badge/arXiv-2602.05407-b31b1b.svg" alt="arXiv" /></a> |
 
@@ -108,18 +107,15 @@ Whether you're an AI engineer building agent systems, a researcher exploring new
 <br>
 
 <details open id="agent-tooling">
-<summary><h3 style="display:inline">Agent Tooling (9)</h3></summary>
+<summary><h3 style="display:inline">Agent Tooling (6)</h3></summary>
 
 <br>
 
 | Paper | arXiv ID |
 |---|:---:|
 | **[TraceCoder: A Trace-Driven Multi-Agent Framework for Automated Debugging](https://arxiv.org/pdf/2602.06875v1)** - Proposes a multi-agent observe-analyze-repair loop that uses runtime traces to find and fix bugs in LLM-generated code. | <a href="https://arxiv.org/abs/2602.06875v1"><img src="https://img.shields.io/badge/arXiv-2602.06875-b31b1b.svg" alt="arXiv" /></a> |
-| **[RocqSmith: Can Automatic Optimization Forge Better Proof Agents?](https://arxiv.org/pdf/2602.05762v1)** - Tests automated agent optimization methods on theorem proving, comparing simple few-shot bootstrapping against fancier optimizers like DSPy and TextGrad. | <a href="https://arxiv.org/abs/2602.05762v1"><img src="https://img.shields.io/badge/arXiv-2602.05762-b31b1b.svg" alt="arXiv" /></a> |
 | **[Generative Ontology: When Structured Knowledge Learns to Create](https://arxiv.org/pdf/2602.05636v1)** - Explores constraining LLM generation with executable schemas and multi-agent roles to produce structurally valid yet creative outputs. | <a href="https://arxiv.org/abs/2602.05636v1"><img src="https://img.shields.io/badge/arXiv-2602.05636-b31b1b.svg" alt="arXiv" /></a> |
-| **[LinguistAgent: A Reflective Multi-Model Platform for Automated Linguistic Annotation](https://arxiv.org/pdf/2602.05493v1)** - Proposes a dual-agent Annotator-Reviewer workflow for linguistic annotation that supports prompting, RAG, and fine-tuning with built-in quality checks. | <a href="https://arxiv.org/abs/2602.05493v1"><img src="https://img.shields.io/badge/arXiv-2602.05493-b31b1b.svg" alt="arXiv" /></a> |
 | **[Structured Context Engineering for File-Native Agentic Systems](https://arxiv.org/pdf/2602.05447v1)** - Tests how context format (YAML, JSON, Markdown) affects agent accuracy across 9,649 experiments in file-native agentic systems. | <a href="https://arxiv.org/abs/2602.05447v1"><img src="https://img.shields.io/badge/arXiv-2602.05447-b31b1b.svg" alt="arXiv" /></a> |
-| **[M2-Miner: Multi-Agent Enhanced MCTS for Mobile GUI Agent Data Mining](https://arxiv.org/pdf/2602.05429v1)** - Proposes automatically mining high-quality training trajectories for mobile GUI agents using multi-agent MCTS without manual annotation. | <a href="https://arxiv.org/abs/2602.05429v1"><img src="https://img.shields.io/badge/arXiv-2602.05429-b31b1b.svg" alt="arXiv" /></a> |
 | **[ProAct: Agentic Lookahead in Interactive Environments](https://arxiv.org/pdf/2602.05327v1)** - Explores training agents to think ahead by distilling environment search into causal reasoning chains in interactive environments. | <a href="https://arxiv.org/abs/2602.05327v1"><img src="https://img.shields.io/badge/arXiv-2602.05327-b31b1b.svg" alt="arXiv" /></a> |
 | **[Autonomous Question Formation for Large Language Model-Driven AI Systems](https://arxiv.org/pdf/2602.01556v1)** - Investigates teaching agents to ask themselves the right questions before acting to adapt to new situations autonomously. | <a href="https://arxiv.org/abs/2602.01556v1"><img src="https://img.shields.io/badge/arXiv-2602.01556-b31b1b.svg" alt="arXiv" /></a> |
 | **[From Perception to Action: Spatial AI Agents and World Models](https://arxiv.org/pdf/2602.01644v1)** - Surveys the connection between agentic architectures and spatial tasks like robotics and navigation, covering memory, planning, and world models in embodied agents. | <a href="https://arxiv.org/abs/2602.01644v1"><img src="https://img.shields.io/badge/arXiv-2602.01644-b31b1b.svg" alt="arXiv" /></a> |
@@ -129,19 +125,17 @@ Whether you're an AI engineer building agent systems, a researcher exploring new
 <br>
 
 <details open id="ai-agent-security">
-<summary><h3 style="display:inline">AI Agent Security (12)</h3></summary>
+<summary><h3 style="display:inline">AI Agent Security (10)</h3></summary>
 
 <br>
 
 | Paper | arXiv ID |
 |---|:---:|
-| **[LLM Active Alignment: A Nash Equilibrium Perspective](https://arxiv.org/pdf/2602.06836v1)** - Models multi-agent LLM populations as a game where agents choose which user groups to align with, examining scenarios where some groups get ignored. | <a href="https://arxiv.org/abs/2602.06836v1"><img src="https://img.shields.io/badge/arXiv-2602.06836-b31b1b.svg" alt="arXiv" /></a> |
 | **[Confundo: Learning to Generate Robust Poison for Practical RAG Systems](https://arxiv.org/pdf/2602.06616v1)** - Trains an LLM to generate RAG poison that survives real-world content processing and query variation for stress-testing RAG defenses. | <a href="https://arxiv.org/abs/2602.06616v1"><img src="https://img.shields.io/badge/arXiv-2602.06616-b31b1b.svg" alt="arXiv" /></a> |
 | **[Malicious Agent Skills in the Wild: A Large-Scale Security Empirical Study](https://arxiv.org/pdf/2602.06547v1)** - Analyzes 98K agent skills from community registries to study the prevalence and nature of malicious third-party agent plugins. | <a href="https://arxiv.org/abs/2602.06547v1"><img src="https://img.shields.io/badge/arXiv-2602.06547-b31b1b.svg" alt="arXiv" /></a> |
 | **[Subgraph Reconstruction Attacks on Graph RAG Deployments with Practical Defenses](https://arxiv.org/pdf/2602.06495v1)** - Investigates whether attackers can reconstruct knowledge graphs from Graph RAG outputs through multi-turn probing. | <a href="https://arxiv.org/abs/2602.06495v1"><img src="https://img.shields.io/badge/arXiv-2602.06495-b31b1b.svg" alt="arXiv" /></a> |
 | **[Zero-Trust Runtime Verification for Agentic Payment Protocols](https://arxiv.org/pdf/2602.06345v1)** - Proposes consume-once mandate semantics for AI agent payment protocols to prevent replay and redirect attacks in autonomous transactions. | <a href="https://arxiv.org/abs/2602.06345v1"><img src="https://img.shields.io/badge/arXiv-2602.06345-b31b1b.svg" alt="arXiv" /></a> |
 | **[Identifying Adversary Tactics and Techniques in Malware Binaries with an LLM Agent](https://arxiv.org/pdf/2602.06325v1)** - Explores using an LLM agent to identify attack techniques in stripped malware binaries through incremental context retrieval. | <a href="https://arxiv.org/abs/2602.06325v1"><img src="https://img.shields.io/badge/arXiv-2602.06325-b31b1b.svg" alt="arXiv" /></a> |
-| **[Trustworthy AI Software Engineers](https://arxiv.org/pdf/2602.06310v1)** - Defines trustworthiness criteria for AI coding agents across technical quality, transparency, epistemic humility, and ethics. | <a href="https://arxiv.org/abs/2602.06310v1"><img src="https://img.shields.io/badge/arXiv-2602.06310-b31b1b.svg" alt="arXiv" /></a> |
 | **[Agent2Agent Threats in Safety-Critical LLM Assistants: A Human-Centric Taxonomy](https://arxiv.org/pdf/2602.05877v1)** - Maps attack paths in agent-to-agent communication protocols for automotive LLM assistants, from driver distraction to unauthorized vehicle control. | <a href="https://arxiv.org/abs/2602.05877v1"><img src="https://img.shields.io/badge/arXiv-2602.05877-b31b1b.svg" alt="arXiv" /></a> |
 | **[Learning to Inject: Automated Prompt Injection via Reinforcement Learning](https://arxiv.org/pdf/2602.05746v1)** - Explores using reinforcement learning to auto-generate prompt injection attacks that transfer across multiple frontier LLM models. | <a href="https://arxiv.org/abs/2602.05746v1"><img src="https://img.shields.io/badge/arXiv-2602.05746-b31b1b.svg" alt="arXiv" /></a> |
 | **[A Dual-Loop Agent Framework for Automated Vulnerability Reproduction](https://arxiv.org/pdf/2602.05721v1)** - Proposes an LLM agent with dual feedback loops for strategy and code to automate vulnerability reproduction from CVE descriptions. | <a href="https://arxiv.org/abs/2602.05721v1"><img src="https://img.shields.io/badge/arXiv-2602.05721-b31b1b.svg" alt="arXiv" /></a> |
