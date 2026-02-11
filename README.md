@@ -36,10 +36,11 @@ Whether you're an AI engineer building agent systems, a researcher exploring new
 
 ### Table of Contents
 
-| | | |
-|---|---|---|
-| [Multi-Agent](#multi-agent) (9) | [Memory & RAG](#memory--rag) (8) | [Eval & Observability](#eval--observability) (10) |
-| [Agent Tooling](#agent-tooling) (9) | [AI Agent Security](#ai-agent-security) (12) | |
+- [Multi-Agent](#multi-agent) (9)
+- [Memory & RAG](#memory--rag) (8)
+- [Eval & Observability](#eval--observability) (10)
+- [Agent Tooling](#agent-tooling) (9)
+- [AI Agent Security](#ai-agent-security) (12)
 
 <br>
 
