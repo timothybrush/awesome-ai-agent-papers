@@ -3,7 +3,7 @@
 <div align="center">
 
 <a href="https://github.com/VoltAgent/voltagent">
-<img width="1500" height="500" alt="social" src="https://github.com/user-attachments/assets/152d58bf-4998-4624-aee6-878ac9332088" />
+<img width="1500" height="500" alt="social" src="https://github.com/user-attachments/assets/23718e60-9ad3-4105-999c-8372713c3fbb" />
 </a>
 
 <br/>
@@ -16,7 +16,6 @@
     <br />
 
 </div>
-
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 <a href="https://github.com/VoltAgent/voltagent">
