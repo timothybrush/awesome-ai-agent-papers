@@ -22,7 +22,7 @@
   <img alt="VoltAgent" src="https://cdn.voltagent.dev/website/logo/logo-2-svg.svg" height="20" />
 </a>
 
-![Papers Count](https://img.shields.io/badge/Research%20Papers-58+-b31b1b)
+![Papers Count](https://img.shields.io/badge/Research%20Papers-88+-b31b1b)
 ![Last Update](https://img.shields.io/github/last-commit/VoltAgent/awesome-ai-agent-papers?label=Last%20update)
 [![Discord](https://img.shields.io/discord/1361559153780195478.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://s.voltagent.dev/discord)
 
@@ -36,16 +36,16 @@ Whether you're an AI engineer building agent systems, a researcher exploring new
 
 ### Table of Contents
 
-- [Multi-Agent](#multi-agent) (11)
-- [Memory & RAG](#memory--rag) (10)
-- [Eval & Observability](#eval--observability) (12)
-- [Agent Tooling](#agent-tooling) (9)
-- [AI Agent Security](#ai-agent-security) (16)
+- [Multi-Agent](#multi-agent) (19)
+- [Memory & RAG](#memory--rag) (12)
+- [Eval & Observability](#eval--observability) (19)
+- [Agent Tooling](#agent-tooling) (18)
+- [AI Agent Security](#ai-agent-security) (20)
 
 <br>
 
 <details open id="multi-agent">
-<summary><h3 style="display:inline">Multi-Agent (11)</h3></summary>
+<summary><h3 style="display:inline">Multi-Agent (19)</h3></summary>
 
 <br>
 
@@ -62,13 +62,20 @@ Whether you're an AI engineer building agent systems, a researcher exploring new
 | **[Agyn: A Multi-Agent System for Team-Based Autonomous Software Engineering](https://arxiv.org/pdf/2602.01465v2)** - Proposes a multi-agent system for autonomous software engineering that assigns specialized agents to roles like coordination, research, implementation, and review. | <a href="http://arxiv.org/abs/2602.01465v2"><img src="https://img.shields.io/badge/arXiv-2602.01465-b31b1b.svg" alt="arXiv" /></a> |
 | **[Multi-Agent Teams Hold Experts Back](https://arxiv.org/pdf/2602.01011v3)** - Examines whether self-organizing LLM agent teams can match or beat their best member's performance across collaborative benchmarks. | <a href="http://arxiv.org/abs/2602.01011v3"><img src="https://img.shields.io/badge/arXiv-2602.01011-b31b1b.svg" alt="arXiv" /></a> |
 | **[Evolving Interpretable Constitutions for Multi-Agent Coordination](https://arxiv.org/pdf/2602.00755v1)** - Explores using LLM-driven genetic programming to automatically discover behavioral norms for multi-agent coordination in a survival-pressure grid-world simulation. | <a href="http://arxiv.org/abs/2602.00755v1"><img src="https://img.shields.io/badge/arXiv-2602.00755-b31b1b.svg" alt="arXiv" /></a> |
+| **[Scaling Multiagent Systems with Process Rewards](https://arxiv.org/pdf/2601.23228v2)** - Proposes per-action process rewards from AI feedback to improve credit assignment and sample efficiency when finetuning multi-agent LLM systems. | <a href="http://arxiv.org/abs/2601.23228v2"><img src="https://img.shields.io/badge/arXiv-2601.23228-b31b1b.svg" alt="arXiv" /></a> |
+| **[MonoScale: Scaling Multi-Agent System with Monotonic Improvement](https://arxiv.org/pdf/2601.23219v1)** - Proposes a framework for safely growing multi-agent pools by generating familiarization tasks and building routing memory, with a guaranteed non-decreasing performance across onboarding rounds. | <a href="http://arxiv.org/abs/2601.23219v1"><img src="https://img.shields.io/badge/arXiv-2601.23219-b31b1b.svg" alt="arXiv" /></a> |
+| **[Task-Aware LLM Council with Adaptive Decision Pathways for Decision Support](https://arxiv.org/pdf/2601.22662v1)** - Proposes a task-adaptive multi-agent framework that routes control to the most suitable LLM at each decision step using semantic matching against each model's success history. | <a href="http://arxiv.org/abs/2601.22662v1"><img src="https://img.shields.io/badge/arXiv-2601.22662-b31b1b.svg" alt="arXiv" /></a> |
+| **[SYMPHONY: Synergistic Multi-agent Planning with Heterogeneous Language Model Assembly](https://arxiv.org/pdf/2601.22623v1)** - Explores using a pool of different LLM agents within MCTS planning to increase rollout diversity and improve multi-step reasoning. | <a href="http://arxiv.org/abs/2601.22623v1"><img src="https://img.shields.io/badge/arXiv-2601.22623-b31b1b.svg" alt="arXiv" /></a> |
+| **[Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/pdf/2601.22209v1)** - Proposes a recommendation framework that uses historical calling trees to select the best agents or agent teams for each subtask in multi-agent orchestration. | <a href="http://arxiv.org/abs/2601.22209v1"><img src="https://img.shields.io/badge/arXiv-2601.22209-b31b1b.svg" alt="arXiv" /></a> |
+| **[Learning Decentralized LLM Collaboration with Multi-Agent Actor Critic](https://arxiv.org/pdf/2601.21972v2)** - Investigates actor-critic reinforcement learning methods for training decentralized LLM agent collaboration across writing, coding, and game-playing tasks. | <a href="http://arxiv.org/abs/2601.21972v2"><img src="https://img.shields.io/badge/arXiv-2601.21972-b31b1b.svg" alt="arXiv" /></a> |
+| **[AgenticSimLaw: A Juvenile Courtroom Multi-Agent Debate Simulation for Explainable High-Stakes Tabular Decision Making](https://arxiv.org/pdf/2601.21936v1)** - Proposes a role-structured multi-agent courtroom debate framework with defined agent roles, interaction protocols, and private reasoning strategies for auditable high-stakes decision-making. | <a href="http://arxiv.org/abs/2601.21936v1"><img src="https://img.shields.io/badge/arXiv-2601.21936-b31b1b.svg" alt="arXiv" /></a> |
 
 </details>
 
 <br>
 
 <details open id="memory--rag">
-<summary><h3 style="display:inline">Memory & RAG (10)</h3></summary>
+<summary><h3 style="display:inline">Memory & RAG (12)</h3></summary>
 
 <br>
 
@@ -84,13 +91,15 @@ Whether you're an AI engineer building agent systems, a researcher exploring new
 | **[ProcMEM: Learning Reusable Procedural Memory from Experience via Non-Parametric PPO for LLM Agents](https://arxiv.org/pdf/2602.01869v1)** - Investigates letting agents save step-by-step procedural skills from past runs and reuse them later without retraining to reduce repeated computation. | <a href="https://arxiv.org/abs/2602.01869v1"><img src="https://img.shields.io/badge/arXiv-2602.01869-b31b1b.svg" alt="arXiv" /></a> |
 | **[Aggregation Queries over Unstructured Text: Benchmark and Agentic Method](https://arxiv.org/pdf/2602.01355v2)** - Proposes an agentic method for aggregation queries over unstructured text that tries to find all matching evidence, breaking the task into disambiguation, filtering, and aggregation stages. | <a href="http://arxiv.org/abs/2602.01355v2"><img src="https://img.shields.io/badge/arXiv-2602.01355-b31b1b.svg" alt="arXiv" /></a> |
 | **[DIVERGE: Diversity-Enhanced RAG for Open-Ended Information Seeking](https://arxiv.org/pdf/2602.00238v1)** - Proposes an agentic RAG framework that uses reflection and memory-based refinement to generate diverse answers for open-ended questions. | <a href="http://arxiv.org/abs/2602.00238v1"><img src="https://img.shields.io/badge/arXiv-2602.00238-b31b1b.svg" alt="arXiv" /></a> |
+| **[JADE: Bridging the Strategic-Operational Gap in Dynamic Agentic RAG](https://arxiv.org/pdf/2601.21916v1)** - Proposes joint optimization of planning and execution in agentic RAG by modeling the system as a cooperative multi-agent team with shared backbone and outcome-based rewards. | <a href="http://arxiv.org/abs/2601.21916v1"><img src="https://img.shields.io/badge/arXiv-2601.21916-b31b1b.svg" alt="arXiv" /></a> |
+| **[ProRAG: Process-Supervised Reinforcement Learning for Retrieval-Augmented Generation](https://arxiv.org/pdf/2601.21912v1)** - Proposes process-supervised reinforcement learning for RAG that uses MCTS-based step-level rewards to identify and fix flawed reasoning steps in multi-hop retrieval. | <a href="http://arxiv.org/abs/2601.21912v1"><img src="https://img.shields.io/badge/arXiv-2601.21912-b31b1b.svg" alt="arXiv" /></a> |
 
 </details>
 
 <br>
 
 <details open id="eval--observability">
-<summary><h3 style="display:inline">Eval & Observability (12)</h3></summary>
+<summary><h3 style="display:inline">Eval & Observability (19)</h3></summary>
 
 <br>
 
@@ -108,13 +117,19 @@ Whether you're an AI engineer building agent systems, a researcher exploring new
 | **[ES-MemEval: Benchmarking Conversational Agents on Personalized Long-Term Emotional Support](https://arxiv.org/pdf/2602.01885v1)** - Benchmarks how well conversational agents retain and use personal information over long emotional support conversations. | <a href="https://arxiv.org/abs/2602.01885v1"><img src="https://img.shields.io/badge/arXiv-2602.01885-b31b1b.svg" alt="arXiv" /></a> |
 | **[HumanStudy-Bench: Towards AI Agent Design for Participant Simulation](https://arxiv.org/pdf/2602.00685v1)** - Introduces a benchmark that replays published human-subject experiments with LLM agents to test how well they simulate real participants. | <a href="http://arxiv.org/abs/2602.00685v1"><img src="https://img.shields.io/badge/arXiv-2602.00685-b31b1b.svg" alt="arXiv" /></a> |
 | **[Benchmarking Agents in Insurance Underwriting Environments](https://arxiv.org/pdf/2602.00456v1)** - Proposes an expert-designed multi-turn insurance underwriting benchmark to evaluate agent performance under real-world enterprise conditions with noisy tools and proprietary knowledge. | <a href="http://arxiv.org/abs/2602.00456v1"><img src="https://img.shields.io/badge/arXiv-2602.00456-b31b1b.svg" alt="arXiv" /></a> |
+| **[TriCEGAR: A Trace-Driven Abstraction Mechanism for Agentic AI](https://arxiv.org/pdf/2601.22997v1)** - Proposes automated state abstraction from agent execution traces using predicate trees and counterexample refinement for probabilistic runtime verification of agent behavior. | <a href="http://arxiv.org/abs/2601.22997v1"><img src="https://img.shields.io/badge/arXiv-2601.22997-b31b1b.svg" alt="arXiv" /></a> |
+| **[Sifting the Noise: A Comparative Study of LLM Agents in Vulnerability False Positive Filtering](https://arxiv.org/pdf/2601.22952v1)** - Compares three LLM agent frameworks (Aider, OpenHands, SWE-agent) on vulnerability false positive filtering to study how agent design and backbone model affect triage performance. | <a href="http://arxiv.org/abs/2601.22952v1"><img src="https://img.shields.io/badge/arXiv-2601.22952-b31b1b.svg" alt="arXiv" /></a> |
+| **[Why Are AI Agent Involved Pull Requests (Fix-Related) Remain Unmerged? An Empirical Study](https://arxiv.org/pdf/2602.00164v1)** - Analyzes 8,106 fix-related pull requests from five AI coding agents to catalog the reasons agent-generated contributions are closed without merging. | <a href="http://arxiv.org/abs/2602.00164v1"><img src="https://img.shields.io/badge/arXiv-2602.00164-b31b1b.svg" alt="arXiv" /></a> |
+| **[JAF: Judge Agent Forest](https://arxiv.org/pdf/2601.22269v1)** - Proposes a judge agent framework that evaluates query-response pairs jointly across a cohort rather than in isolation, using in-context neighborhoods for cross-instance pattern detection. | <a href="http://arxiv.org/abs/2601.22269v1"><img src="https://img.shields.io/badge/arXiv-2601.22269-b31b1b.svg" alt="arXiv" /></a> |
+| **[Stalled, Biased, and Confused: Uncovering Reasoning Failures in LLMs for Cloud-Based Root Cause Analysis](https://arxiv.org/pdf/2601.22208v1)** - Evaluates LLM reasoning under ReAct and Plan-and-Execute agentic workflows across 48,000 simulated failure scenarios, producing a taxonomy of 16 common reasoning failures. | <a href="http://arxiv.org/abs/2601.22208v1"><img src="https://img.shields.io/badge/arXiv-2601.22208-b31b1b.svg" alt="arXiv" /></a> |
+| **[CAR-bench: Evaluating the Consistency and Limit-Awareness of LLM Agents under Real-World Uncertainty](https://arxiv.org/pdf/2601.22027v1)** - Introduces a benchmark for evaluating LLM agent consistency, uncertainty handling, and capability awareness in multi-turn tool-using scenarios with incomplete or ambiguous user requests. | <a href="http://arxiv.org/abs/2601.22027v1"><img src="https://img.shields.io/badge/arXiv-2601.22027-b31b1b.svg" alt="arXiv" /></a> |
 
 </details>
 
 <br>
 
-<details open id="agent-tooling">
-<summary><h3 style="display:inline">Agent Tooling (9)</h3></summary>
+<details id="agent-tooling">
+<summary><h3 style="display:inline">Agent Tooling (18)</h3></summary>
 
 <br>
 
@@ -129,13 +144,22 @@ Whether you're an AI engineer building agent systems, a researcher exploring new
 | **[World Models as an Intermediary between Agents and the Real World](https://arxiv.org/pdf/2602.00785v1)** - Argues for using world models as a bridge between agents and high-cost real-world environments to provide richer learning signals across domains like robotics and ML engineering. | <a href="http://arxiv.org/abs/2602.00785v1"><img src="https://img.shields.io/badge/arXiv-2602.00785-b31b1b.svg" alt="arXiv" /></a> |
 | **[Engineering AI Agents for Clinical Workflows: A Case Study in Architecture, MLOps, and Governance](https://arxiv.org/pdf/2602.00751v1)** - Presents a reference architecture for production AI agents integrating Clean Architecture, event-driven design, per-agent MLOps lifecycles, and human-in-the-loop governance. | <a href="http://arxiv.org/abs/2602.00751v1"><img src="https://img.shields.io/badge/arXiv-2602.00751-b31b1b.svg" alt="arXiv" /></a> |
 | **[Autonomous Data Processing using Meta-Agents](https://arxiv.org/pdf/2602.00307v1)** - Proposes a meta-agent framework that builds, runs, and keeps refining data processing pipelines through hierarchical agent orchestration. | <a href="http://arxiv.org/abs/2602.00307v1"><img src="https://img.shields.io/badge/arXiv-2602.00307-b31b1b.svg" alt="arXiv" /></a> |
+| **[MEnvAgent: Scalable Polyglot Environment Construction for Verifiable Software Engineering](https://arxiv.org/pdf/2601.22859v2)** - Proposes a multi-agent framework for automatically building executable test environments across ten programming languages using planning-execution-verification with environment reuse. | <a href="http://arxiv.org/abs/2601.22859v2"><img src="https://img.shields.io/badge/arXiv-2601.22859-b31b1b.svg" alt="arXiv" /></a> |
+| **[Learning with Challenges: Adaptive Difficulty-Aware Data Generation for Mobile GUI Agent Training](https://arxiv.org/pdf/2601.22781v1)** - Proposes an adaptive data generation framework for training mobile GUI agents that matches task difficulty to the agent's current capability level. | <a href="http://arxiv.org/abs/2601.22781v1"><img src="https://img.shields.io/badge/arXiv-2601.22781-b31b1b.svg" alt="arXiv" /></a> |
+| **[AutoRefine: From Trajectories to Reusable Expertise for Continual LLM Agent Refinement](https://arxiv.org/pdf/2601.22758v1)** - Proposes extracting dual-form reusable expertise from agent execution histories — specialized subagents for procedural tasks and skill patterns for static knowledge — with continuous pruning and merging. | <a href="http://arxiv.org/abs/2601.22758v1"><img src="https://img.shields.io/badge/arXiv-2601.22758-b31b1b.svg" alt="arXiv" /></a> |
+| **[ToolTok: Tool Tokenization for Efficient and Generalizable GUI Agents](https://arxiv.org/pdf/2602.02548v1)** - Proposes modeling GUI agent operations as sequences of learnable tool tokens with semantic anchoring and curriculum-based training instead of coordinate-based visual grounding. | <a href="http://arxiv.org/abs/2602.02548v1"><img src="https://img.shields.io/badge/arXiv-2602.02548-b31b1b.svg" alt="arXiv" /></a> |
+| **[From Self-Evolving Synthetic Data to Verifiable-Reward RL: Post-Training Multi-turn Interactive Tool-Using Agents](https://arxiv.org/pdf/2601.22607v2)** - Proposes a framework combining a self-evolving multi-agent data engine with verifier-based reinforcement learning to train multi-turn interactive tool-using agents. | <a href="http://arxiv.org/abs/2601.22607v2"><img src="https://img.shields.io/badge/arXiv-2601.22607-b31b1b.svg" alt="arXiv" /></a> |
+| **[Why Reasoning Fails to Plan: A Planning-Centric Analysis of Long-Horizon Decision Making in LLM Agents](https://arxiv.org/pdf/2601.22311v1)** - Analyzes why step-wise reasoning in LLM agents fails at long-horizon planning and proposes future-aware lookahead with reward estimation to let early actions account for delayed outcomes. | <a href="http://arxiv.org/abs/2601.22311v1"><img src="https://img.shields.io/badge/arXiv-2601.22311-b31b1b.svg" alt="arXiv" /></a> |
+| **[SWE-Replay: Efficient Test-Time Scaling for Software Engineering Agents](https://arxiv.org/pdf/2601.22129v2)** - Proposes a test-time scaling method for software engineering agents that recycles prior trajectories and branches at critical intermediate steps instead of resampling from scratch. | <a href="http://arxiv.org/abs/2601.22129v2"><img src="https://img.shields.io/badge/arXiv-2601.22129-b31b1b.svg" alt="arXiv" /></a> |
+| **[Optimizing Agentic Workflows using Meta-tools](https://arxiv.org/pdf/2601.22037v2)** - Proposes bundling recurring sequences of agent tool calls into deterministic meta-tools to skip unnecessary intermediate LLM reasoning steps and cut failures. | <a href="http://arxiv.org/abs/2601.22037v2"><img src="https://img.shields.io/badge/arXiv-2601.22037-b31b1b.svg" alt="arXiv" /></a> |
+| **[astra-langchain4j: Experiences Combining LLMs and Agent Programming](https://arxiv.org/pdf/2601.21879v1)** - Explores integrating LLM capabilities into the ASTRA agent programming language to study how traditional agent toolkits and modern LLM-based agentic platforms can inform each other. | <a href="http://arxiv.org/abs/2601.21879v1"><img src="https://img.shields.io/badge/arXiv-2601.21879-b31b1b.svg" alt="arXiv" /></a> |
 
 </details>
 
 <br>
 
-<details open id="ai-agent-security">
-<summary><h3 style="display:inline">AI Agent Security (16)</h3></summary>
+<details id="ai-agent-security">
+<summary><h3 style="display:inline">AI Agent Security (20)</h3></summary>
 
 <br>
 
@@ -157,6 +181,10 @@ Whether you're an AI engineer building agent systems, a researcher exploring new
 | **[Persuasion Propagation in LLM Agents](https://arxiv.org/pdf/2602.00851v1)** - Investigates how user persuasion during conversation can carry over and change how autonomous AI agents perform later tasks. | <a href="http://arxiv.org/abs/2602.00851v1"><img src="https://img.shields.io/badge/arXiv-2602.00851-b31b1b.svg" alt="arXiv" /></a> |
 | **[When Agents "Misremember" Collectively: Exploring the Mandela Effect in LLM-based Multi-Agent Systems](https://arxiv.org/pdf/2602.00428v1)** - Explores how collective false memories form in LLM-based multi-agent systems and proposes defenses including cognitive anchoring and alignment-based approaches. | <a href="http://arxiv.org/abs/2602.00428v1"><img src="https://img.shields.io/badge/arXiv-2602.00428-b31b1b.svg" alt="arXiv" /></a> |
 | **["Someone Hid It": Query-Agnostic Black-Box Attacks on LLM-Based Retrieval](https://arxiv.org/pdf/2602.00364v2)** - Proposes a black-box attack method that generates transferable adversarial tokens to manipulate LLM-based retrieval systems without needing access to the target's queries or model. | <a href="http://arxiv.org/abs/2602.00364v2"><img src="https://img.shields.io/badge/arXiv-2602.00364-b31b1b.svg" alt="arXiv" /></a> |
+| **[From Similarity to Vulnerability: Key Collision Attack on LLM Semantic Caching](https://arxiv.org/pdf/2601.23088v1)** - Introduces CacheAttack, a black-box framework that exploits the trade-off between locality and collision resistance in semantic caching to hijack LLM responses and manipulate agent behavior. | <a href="http://arxiv.org/abs/2601.23088v1"><img src="https://img.shields.io/badge/arXiv-2601.23088-b31b1b.svg" alt="arXiv" /></a> |
+| **[TessPay: Verify-then-Pay Infrastructure for Trusted Agentic Commerce](https://arxiv.org/pdf/2602.00213v1)** - Proposes a verify-then-pay infrastructure for agent transactions that locks funds in escrow, requires cryptographic proof of task execution, and releases payment only after verification. | <a href="http://arxiv.org/abs/2602.00213v1"><img src="https://img.shields.io/badge/arXiv-2602.00213-b31b1b.svg" alt="arXiv" /></a> |
+| **[Whispers of Wealth: Red-Teaming Google's Agent Payments Protocol via Prompt Injection](https://arxiv.org/pdf/2601.22569v1)** - Red-teams Google's Agent Payments Protocol via prompt injection attacks that manipulate product ranking and extract sensitive user data in agent-led purchase flows. | <a href="http://arxiv.org/abs/2601.22569v1"><img src="https://img.shields.io/badge/arXiv-2601.22569-b31b1b.svg" alt="arXiv" /></a> |
+| **[StepShield: When, Not Whether to Intervene on Rogue Agents](https://arxiv.org/pdf/2601.22136v1)** - Introduces a benchmark for evaluating when agent violations are detected during execution rather than just whether, with temporal metrics for early intervention and tokens saved. | <a href="http://arxiv.org/abs/2601.22136v1"><img src="https://img.shields.io/badge/arXiv-2601.22136-b31b1b.svg" alt="arXiv" /></a> |
 
 </details>
 
