@@ -22,7 +22,7 @@
   <img alt="VoltAgent" src="https://cdn.voltagent.dev/website/logo/logo-2-svg.svg" height="20" />
 </a>
 
-![Papers Count](https://img.shields.io/badge/Research%20Papers-216+-b31b1b)
+![Papers Count](https://img.shields.io/badge/Research%20Papers-224+-b31b1b)
 ![Last Update](https://img.shields.io/github/last-commit/VoltAgent/awesome-ai-agent-papers?label=Last%20update)
 [![Discord](https://img.shields.io/discord/1361559153780195478.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://s.voltagent.dev/discord)
 
@@ -36,16 +36,16 @@ Whether you're an AI engineer building agent systems, a researcher exploring new
 
 ### Table of Contents
 
-- [Multi-Agent](#multi-agent) (33)
-- [Memory & RAG](#memory--rag) (29)
+- [Multi-Agent](#multi-agent) (35)
+- [Memory & RAG](#memory--rag) (32)
 - [Eval & Observability](#eval--observability) (50)
 - [Agent Tooling](#agent-tooling) (54)
-- [AI Agent Security](#ai-agent-security) (50)
+- [AI Agent Security](#ai-agent-security) (53)
 
 <br>
 
 <details open id="multi-agent">
-<summary><h3 style="display:inline">Multi-Agent (33)</h3></summary>
+<summary><h3 style="display:inline">Multi-Agent (35)</h3></summary>
 
 <br>
 
@@ -84,13 +84,15 @@ Whether you're an AI engineer building agent systems, a researcher exploring new
 | **[MARO: Learning Stronger Reasoning from Social Interaction](https://arxiv.org/pdf/2601.12323v2)** - Proposes Multi-Agent Reward Optimization, a method that decomposes multi-agent social interaction outcomes into per-behavior learning signals to improve LLM reasoning through simulated social environments. | <a href="http://arxiv.org/abs/2601.12323v2"><img src="https://img.shields.io/badge/arXiv-2601.12323-b31b1b.svg" alt="arXiv" /></a> |
 | **[LSTM-MAS: A Long Short-Term Memory Inspired Multi-Agent System for Long-Context Understanding](https://arxiv.org/pdf/2601.11913v1)** - Introduces an LSTM-inspired multi-agent architecture with worker, filter, judge, and manager agents that emulate gated memory mechanisms to control information flow for long-context understanding. | <a href="http://arxiv.org/abs/2601.11913v1"><img src="https://img.shields.io/badge/arXiv-2601.11913-b31b1b.svg" alt="arXiv" /></a> |
 | **[Do We Always Need Query-Level Workflows? Rethinking Agentic Workflow Generation for Multi-Agent Systems](https://arxiv.org/pdf/2601.11147v1)** - Examines whether query-level workflow generation is always necessary in multi-agent systems and proposes a low-cost task-level framework that uses self-prediction with few-shot calibration instead of full execution. | <a href="http://arxiv.org/abs/2601.11147v1"><img src="https://img.shields.io/badge/arXiv-2601.11147-b31b1b.svg" alt="arXiv" /></a> |
+| **[Learning Latency-Aware Orchestration for Parallel Multi-Agent Systems](https://arxiv.org/pdf/2601.10560v1)** - Proposes a latency-aware multi-agent orchestration framework that explicitly optimizes the critical execution path under parallel execution to reduce end-to-end latency while maintaining task performance. | <a href="http://arxiv.org/abs/2601.10560v1"><img src="https://img.shields.io/badge/arXiv-2601.10560-b31b1b.svg" alt="arXiv" /></a> |
+| **[TopoDIM: One-shot Topology Generation of Diverse Interaction Modes for Multi-Agent Systems](https://arxiv.org/pdf/2601.10120v1)** - Proposes a one-shot topology generation framework with diverse interaction modes that enables decentralized agents to autonomously construct heterogeneous communication topologies without iterative coordination. | <a href="http://arxiv.org/abs/2601.10120v1"><img src="https://img.shields.io/badge/arXiv-2601.10120-b31b1b.svg" alt="arXiv" /></a> |
 
 </details>
 
 <br>
 
 <details open id="memory--rag">
-<summary><h3 style="display:inline">Memory & RAG (29)</h3></summary>
+<summary><h3 style="display:inline">Memory & RAG (32)</h3></summary>
 
 <br>
 
@@ -125,6 +127,9 @@ Whether you're an AI engineer building agent systems, a researcher exploring new
 | **[Augmenting Question Answering with A Hybrid RAG Approach](https://arxiv.org/pdf/2601.12658v2)** - Introduces a hybrid RAG architecture combining query augmentation, agentic routing, and structured retrieval that merges vector and graph-based techniques with context unification for question answering. | <a href="http://arxiv.org/abs/2601.12658v2"><img src="https://img.shields.io/badge/arXiv-2601.12658-b31b1b.svg" alt="arXiv" /></a> |
 | **[Utilizing Metadata for Better Retrieval-Augmented Generation](https://arxiv.org/pdf/2601.11863v1)** - Presents a systematic study of metadata-aware retrieval strategies for RAG, comparing prefix, suffix, unified embedding, and late-fusion approaches with field-level ablations on embedding space structure. | <a href="http://arxiv.org/abs/2601.11863v1"><img src="https://img.shields.io/badge/arXiv-2601.11863-b31b1b.svg" alt="arXiv" /></a> |
 | **[Deep GraphRAG: A Balanced Approach to Hierarchical Retrieval and Adaptive Integration](https://arxiv.org/pdf/2601.11144v3)** - Proposes a hierarchical global-to-local retrieval strategy for GraphRAG with beam search-optimized re-ranking and a compact LLM integration module trained via dynamic-weighting reinforcement learning. | <a href="http://arxiv.org/abs/2601.11144v3"><img src="https://img.shields.io/badge/arXiv-2601.11144-b31b1b.svg" alt="arXiv" /></a> |
+| **[Grounding Agent Memory in Contextual Intent](https://arxiv.org/pdf/2601.10702v1)** - Introduces an agentic memory system that indexes trajectory steps with structured contextual intent cues and retrieves history by intent compatibility to reduce interference in long-horizon goal-oriented interactions. | <a href="http://arxiv.org/abs/2601.10702v1"><img src="https://img.shields.io/badge/arXiv-2601.10702-b31b1b.svg" alt="arXiv" /></a> |
+| **[Structure and Diversity Aware Context Bubble Construction for Enterprise Retrieval Augmented Systems](https://arxiv.org/pdf/2601.10681v1)** - Proposes a structure-informed and diversity-constrained context bubble construction framework for RAG that preserves document structure and balances relevance, coverage, and redundancy under strict token budgets. | <a href="http://arxiv.org/abs/2601.10681v1"><img src="https://img.shields.io/badge/arXiv-2601.10681-b31b1b.svg" alt="arXiv" /></a> |
+| **[Topo-RAG: Topology-aware retrieval for hybrid text-table documents](https://arxiv.org/pdf/2601.10215v1)** - Introduces a dual-architecture RAG framework that routes narrative through dense retrievers and tabular data through a cell-aware late interaction mechanism to preserve spatial relationships in hybrid documents. | <a href="http://arxiv.org/abs/2601.10215v1"><img src="https://img.shields.io/badge/arXiv-2601.10215-b31b1b.svg" alt="arXiv" /></a> |
 
 </details>
 
@@ -259,7 +264,7 @@ Whether you're an AI engineer building agent systems, a researcher exploring new
 <br>
 
 <details id="ai-agent-security">
-<summary><h3 style="display:inline">AI Agent Security (50)</h3></summary>
+<summary><h3 style="display:inline">AI Agent Security (53)</h3></summary>
 
 <br>
 
@@ -315,6 +320,9 @@ Whether you're an AI engineer building agent systems, a researcher exploring new
 | **[SD-RAG: A Prompt-Injection-Resilient Framework for Selective Disclosure in Retrieval-Augmented Generation](https://arxiv.org/pdf/2601.11199v1)** - Proposes a prompt-injection-resilient RAG framework that decouples security enforcement from generation by applying sanitization and policy-aware disclosure controls during the retrieval phase. | <a href="http://arxiv.org/abs/2601.11199v1"><img src="https://img.shields.io/badge/arXiv-2601.11199-b31b1b.svg" alt="arXiv" /></a> |
 | **[Beyond Max Tokens: Stealthy Resource Amplification via Tool Calling Chains in LLM Agents](https://arxiv.org/pdf/2601.10955v1)** - Introduces a stealthy multi-turn economic DoS attack exploiting the agent-tool communication loop through MCP-compatible tool server modifications that inflate costs by up to 658x. | <a href="http://arxiv.org/abs/2601.10955v1"><img src="https://img.shields.io/badge/arXiv-2601.10955-b31b1b.svg" alt="arXiv" /></a> |
 | **[Hidden-in-Plain-Text: A Benchmark for Social-Web Indirect Prompt Injection in RAG](https://arxiv.org/pdf/2601.10923v2)** - Introduces a benchmark and harness for evaluating web-facing RAG systems under indirect prompt injection and retrieval poisoning attacks with standardized end-to-end evaluation from ingestion to generation. | <a href="http://arxiv.org/abs/2601.10923v2"><img src="https://img.shields.io/badge/arXiv-2601.10923-b31b1b.svg" alt="arXiv" /></a> |
+| **[Breaking Up with Normatively Monolithic Agency with GRACE: A Reason-Based Neuro-Symbolic Architecture for Safe and Ethical AI Alignment](https://arxiv.org/pdf/2601.10520v2)** - Introduces a neuro-symbolic containment architecture that decouples normative reasoning from instrumental decision-making through a Moral Module, Decision-Making Module, and compliance Guard for agent safety. | <a href="http://arxiv.org/abs/2601.10520v2"><img src="https://img.shields.io/badge/arXiv-2601.10520-b31b1b.svg" alt="arXiv" /></a> |
+| **[AgentGuardian: Learning Access Control Policies to Govern AI Agent Behavior](https://arxiv.org/pdf/2601.10440v1)** - Presents a security framework that learns context-aware access-control policies from monitored execution traces to govern AI agent operations and detect malicious inputs while preserving normal functionality. | <a href="http://arxiv.org/abs/2601.10440v1"><img src="https://img.shields.io/badge/arXiv-2601.10440-b31b1b.svg" alt="arXiv" /></a> |
+| **[Agent Skills in the Wild: An Empirical Study of Security Vulnerabilities at Scale](https://arxiv.org/pdf/2601.10338v1)** - Analyzes 42,447 agent skills from two major marketplaces, finding 26.1% contain security vulnerabilities spanning prompt injection, data exfiltration, privilege escalation, and supply chain risks. | <a href="http://arxiv.org/abs/2601.10338v1"><img src="https://img.shields.io/badge/arXiv-2601.10338-b31b1b.svg" alt="arXiv" /></a> |
 
 </details>
 
