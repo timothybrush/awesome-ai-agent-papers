@@ -55,7 +55,7 @@ Hundreds of papers are published on arXiv every week, and a growing number of th
 
 ### Table of Contents
 
-- [Multi-Agent](#multi-agent) (51)
+- [Multi-Agent](#multi-agent) (53)
 - [Memory & RAG](#memory--rag) (56)
 - [Eval & Observability](#eval--observability) (79)
 - [Agent Tooling](#agent-tooling) (95)
@@ -64,12 +64,13 @@ Hundreds of papers are published on arXiv every week, and a growing number of th
 <br>
 
 <details open id="multi-agent">
-<summary><h3 style="display:inline">Multi-Agent (51)</h3></summary>
+<summary><h3 style="display:inline">Multi-Agent (53)</h3></summary>
 
 <br>
 
 | Paper | arXiv ID |
 |---|:---:|
+| **[AutoNumerics: An Autonomous, PDE-Agnostic Multi-Agent Pipeline for Scientific Computing](https://arxiv.org/pdf/2602.17607)** - A multi-agent pipeline that reads a PDE problem description in plain text and writes, debugs, and validates a classical numerical solver end-to-end. Generates spectral and finite-difference code (no neural networks), scoring ~6 orders of magnitude below FNO and CodePDE baselines. | <a href="https://arxiv.org/abs/2602.17607"><img src="https://img.shields.io/badge/arXiv-2602.17607-b31b1b.svg" alt="arXiv" /></a> |
 | **[DyTopo: Dynamic Topology Routing for Multi-Agent Reasoning via Semantic Matching](https://arxiv.org/pdf/2602.06039v1)** - Investigates dynamically rewiring agent-to-agent connections at each reasoning round via semantic matching instead of fixed communication topologies. | <a href="https://arxiv.org/abs/2602.06039v1"><img src="https://img.shields.io/badge/arXiv-2602.06039-b31b1b.svg" alt="arXiv" /></a> |
 | **[RuleSmith: Multi-Agent LLMs for Automated Game Balancing](https://arxiv.org/pdf/2602.06232v1)** - Explores automated game balancing by combining multi-agent LLM self-play with Bayesian optimization on a civ-style game. | <a href="https://arxiv.org/abs/2602.06232v1"><img src="https://img.shields.io/badge/arXiv-2602.06232-b31b1b.svg" alt="arXiv" /></a> |
 | **[CommCP: Efficient Multi-Agent Coordination via LLM-Based Communication with Conformal Prediction](https://arxiv.org/pdf/2602.06038v1)** - Examines how conformal prediction can filter noisy inter-agent messages to improve multi-robot coordination. | <a href="https://arxiv.org/abs/2602.06038v1"><img src="https://img.shields.io/badge/arXiv-2602.06038-b31b1b.svg" alt="arXiv" /></a> |
@@ -121,6 +122,7 @@ Hundreds of papers are published on arXiv every week, and a growing number of th
 | **[TCAndon-Router: Adaptive Reasoning Router for Multi-Agent Collaboration](https://arxiv.org/pdf/2601.04544v1)** - Proposes an adaptive reasoning router for multi-agent systems that generates natural-language reasoning chains before predicting candidate agents, with a collaborative execution pipeline. | <a href="https://arxiv.org/abs/2601.04544v1"><img src="https://img.shields.io/badge/arXiv-2601.04544-b31b1b.svg" alt="arXiv" /></a> |
 | **[When Numbers Start Talking: Implicit Numerical Coordination Among LLM-Based Agents](https://arxiv.org/pdf/2601.03846v1)** - Investigates covert communication in LLM multi-agent systems through game-theoretic analysis of implicit coordination signals across different communication regimes. | <a href="https://arxiv.org/abs/2601.03846v1"><img src="https://img.shields.io/badge/arXiv-2601.03846-b31b1b.svg" alt="arXiv" /></a> |
 | **[Bayesian Orchestration of Multi-LLM Agents for Cost-Aware Sequential Decision-Making](https://arxiv.org/pdf/2601.01522v1)** - Proposes a Bayesian, cost-aware multi-LLM orchestration framework that treats LLMs as approximate likelihood models and aggregates across diverse models for sequential decision-making. | <a href="https://arxiv.org/abs/2601.01522v1"><img src="https://img.shields.io/badge/arXiv-2601.01522-b31b1b.svg" alt="arXiv" /></a> |
+| **[OptimAI: Optimization from Natural Language Using LLM-Powered AI Agents](https://arxiv.org/pdf/2504.16918)** - Turns natural-language optimization problems into working solver code with a four-agent pipeline (Formulator, Planner, Coder, Critic) and UCB bandit scheduling over candidate formulations. Mixing Gemma 27B and Llama 70B beats any single model; gets 88% on NLP4LP vs. 72% prior best. | <a href="https://arxiv.org/abs/2504.16918"><img src="https://img.shields.io/badge/arXiv-2504.16918-b31b1b.svg" alt="arXiv" /></a> |
 
 </details>
 
