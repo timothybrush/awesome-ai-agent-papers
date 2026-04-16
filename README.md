@@ -57,7 +57,7 @@ Hundreds of papers are published on arXiv every week, and a growing number of th
 
 - [Multi-Agent](#multi-agent) (51)
 - [Memory & RAG](#memory--rag) (56)
-- [Eval & Observability](#eval--observability) (79)
+- [Eval & Observability](#eval--observability) (80)
 - [Agent Tooling](#agent-tooling) (95)
 - [AI Agent Security](#ai-agent-security) (82)
 
@@ -71,6 +71,7 @@ Hundreds of papers are published on arXiv every week, and a growing number of th
 | Paper | arXiv ID |
 |---|:---:|
 | **[Beyond Offline A/B Testing: Context-Aware Agent Simulation for Recommender System Evaluation](https://arxiv.org/abs/2604.09549)** - Evaluates recommender systems via agent-RS interactions. | <a href="https://arxiv.org/abs/2604.09549"><img src="https://img.shields.io/badge/arXiv-2602.06039-b31b1b.svg" alt="arXiv" /></a> |
+| **[CORAL: Towards Autonomous Multi-Agent Evolution for Open-Ended Discovery](https://arxiv.org/pdf/2604.01658)** - Introduces long-running multi-agent systems that self-evolve via shared persistent memory, asynchronous execution, and heartbeat-based interventions; 3–10× higher improvement rates than fixed evolutionary-search baselines on 10 math/algorithmic/systems tasks. | <a href="https://arxiv.org/abs/2604.01658"><img src="https://img.shields.io/badge/arXiv-2604.01658-b31b1b.svg" alt="arXiv" /></a> |
 | **[DyTopo: Dynamic Topology Routing for Multi-Agent Reasoning via Semantic Matching](https://arxiv.org/pdf/2602.06039v1)** - Investigates dynamically rewiring agent-to-agent connections at each reasoning round via semantic matching instead of fixed communication topologies. | <a href="https://arxiv.org/abs/2602.06039v1"><img src="https://img.shields.io/badge/arXiv-2602.06039-b31b1b.svg" alt="arXiv" /></a> |
 | **[RuleSmith: Multi-Agent LLMs for Automated Game Balancing](https://arxiv.org/pdf/2602.06232v1)** - Explores automated game balancing by combining multi-agent LLM self-play with Bayesian optimization on a civ-style game. | <a href="https://arxiv.org/abs/2602.06232v1"><img src="https://img.shields.io/badge/arXiv-2602.06232-b31b1b.svg" alt="arXiv" /></a> |
 | **[CommCP: Efficient Multi-Agent Coordination via LLM-Based Communication with Conformal Prediction](https://arxiv.org/pdf/2602.06038v1)** - Examines how conformal prediction can filter noisy inter-agent messages to improve multi-robot coordination. | <a href="https://arxiv.org/abs/2602.06038v1"><img src="https://img.shields.io/badge/arXiv-2602.06038-b31b1b.svg" alt="arXiv" /></a> |
@@ -196,12 +197,13 @@ Hundreds of papers are published on arXiv every week, and a growing number of th
 <br>
 
 <details id="eval--observability">
-<summary><h3 style="display:inline">Eval & Observability (79)</h3></summary>
+<summary><h3 style="display:inline">Eval & Observability (80)</h3></summary>
 
 <br>
 
 | Paper | arXiv ID |
 |---|:---:|
+| **[ClawBench: Evaluating Browser Agents on Live Production Websites with Submission-Interception](https://arxiv.org/pdf/2604.08523v1)** - Benchmarks browser agents on 153 everyday tasks across 144 live production sites, with a Chrome-extension plus CDP layer that blocks only the final write request so agents can run end-to-end on real sites without real-world side effects. Evaluates 7 frontier models; top passes 33.3% of tasks. | <a href="https://arxiv.org/abs/2604.08523"><img src="https://img.shields.io/badge/arXiv-2604.08523-b31b1b.svg" alt="arXiv" /></a> |
 | **[From Features to Actions: Explainability in Traditional and Agentic AI Systems](https://arxiv.org/pdf/2602.06841v1)** - Compares attribution-based explanations with trace-based diagnostics across static and agentic settings to study how explainability methods translate to multi-step agent trajectories. | <a href="https://arxiv.org/abs/2602.06841v1"><img src="https://img.shields.io/badge/arXiv-2602.06841-b31b1b.svg" alt="arXiv" /></a> |
 | **[Agentic Uncertainty Reveals Agentic Overconfidence](https://arxiv.org/pdf/2602.06948v1)** - Investigates whether agents can accurately predict their own success rates in agentic tasks. | <a href="https://arxiv.org/abs/2602.06948v1"><img src="https://img.shields.io/badge/arXiv-2602.06948-b31b1b.svg" alt="arXiv" /></a> |
 | **[AIRS-Bench: a Suite of Tasks for Frontier AI Research Science Agents](https://arxiv.org/pdf/2602.06855v1)** - Introduces 20 research tasks from real ML papers covering idea generation, experiments, and refinement for benchmarking science agents. | <a href="https://arxiv.org/abs/2602.06855v1"><img src="https://img.shields.io/badge/arXiv-2602.06855-b31b1b.svg" alt="arXiv" /></a> |
