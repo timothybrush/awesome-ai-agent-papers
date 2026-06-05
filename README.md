@@ -284,12 +284,13 @@ Hundreds of papers are published on arXiv every week, and a growing number of th
 <br>
 
 <details id="agent-tooling">
-<summary><h3 style="display:inline">Agent Tooling (95)</h3></summary>
+<summary><h3 style="display:inline">Agent Tooling (96)</h3></summary>
 
 <br>
 
 | Paper | arXiv ID |
 |---|:---:|
+| **[On Effectiveness and Efficiency of Agentic Tool-calling and RL Training](https://arxiv.org/pdf/2606.00135)** - Find that current agentic tool-calling benchmarks like BFCL are quite brittle: system prompt, multi-turn template or even pure random seeds could have huge influence on the final performance. | <a href="https://arxiv.org/abs/2606.00135"><img src="https://img.shields.io/badge/arXiv-2602.06875-b31b1b.svg" alt="arXiv" /></a> |
 | **[TraceCoder: A Trace-Driven Multi-Agent Framework for Automated Debugging](https://arxiv.org/pdf/2602.06875v1)** - Proposes a multi-agent observe-analyze-repair loop that uses runtime traces to find and fix bugs in LLM-generated code. | <a href="https://arxiv.org/abs/2602.06875v1"><img src="https://img.shields.io/badge/arXiv-2602.06875-b31b1b.svg" alt="arXiv" /></a> |
 | **[Generative Ontology: When Structured Knowledge Learns to Create](https://arxiv.org/pdf/2602.05636v1)** - Explores constraining LLM generation with executable schemas and multi-agent roles to produce structurally valid yet creative outputs. | <a href="https://arxiv.org/abs/2602.05636v1"><img src="https://img.shields.io/badge/arXiv-2602.05636-b31b1b.svg" alt="arXiv" /></a> |
 | **[Structured Context Engineering for File-Native Agentic Systems](https://arxiv.org/pdf/2602.05447v1)** - Tests how context format (YAML, JSON, Markdown) affects agent accuracy across 9,649 experiments in file-native agentic systems. | <a href="https://arxiv.org/abs/2602.05447v1"><img src="https://img.shields.io/badge/arXiv-2602.05447-b31b1b.svg" alt="arXiv" /></a> |
