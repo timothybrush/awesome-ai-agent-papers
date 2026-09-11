@@ -61,7 +61,7 @@ Hundreds of papers are published on arXiv every week, and a growing number of th
 - [Memory & RAG](#memory--rag) (57)
 - [Eval & Observability](#eval--observability) (80)
 - [Agent Tooling](#agent-tooling) (95)
-- [AI Agent Security](#ai-agent-security) (82)
+- [AI Agent Security](#ai-agent-security) (83)
 
 <br>
 
@@ -435,12 +435,13 @@ Stop building from a blank page. [LaunchKit](https://launchkit.getdesign.md/) gi
 <br>
 
 <details id="ai-agent-security">
-<summary><h3 style="display:inline">AI Agent Security (82)</h3></summary>
+<summary><h3 style="display:inline">AI Agent Security (83)</h3></summary>
 
 <br>
 
 | Paper | arXiv ID |
 |---|:---:|
+| **[One Polluted Page Is Enough: Evaluating Web Content Pollution in LLM Recommenders](https://arxiv.org/pdf/2606.13610)** - Tests whether search-augmented LLMs recommend brands that do not exist, by swapping the real brand name inside the top-ranked pages the model retrieves and changing nothing else. Across 12 models, one altered page at rank 1 produces a fake recommendation in up to 27% of cases, and altering the top three pages reaches 73.8%. | <a href="https://arxiv.org/abs/2606.13610"><img src="https://img.shields.io/badge/arXiv-2606.13610-b31b1b.svg" alt="arXiv" /></a> |
 | **[Internal Safety Collapse in Frontier Large Language Models](https://arxiv.org/pdf/2603.23509)** - Reveals that AI agents produce harmful content (toxic text, exploits, dangerous data) as a side effect of completing normal professional tasks — no adversarial prompting needed. At least one mode (single-turn, ICL, or agentic) succeeds on every frontier model tested. 56 cross-domain scenarios across 8+ disciplines. | <a href="https://arxiv.org/abs/2603.23509"><img src="https://img.shields.io/badge/arXiv-2603.23509-b31b1b.svg" alt="arXiv" /></a> |
 | **[Confundo: Learning to Generate Robust Poison for Practical RAG Systems](https://arxiv.org/pdf/2602.06616v1)** - Trains an LLM to generate RAG poison that survives real-world content processing and query variation for stress-testing RAG defenses. | <a href="https://arxiv.org/abs/2602.06616v1"><img src="https://img.shields.io/badge/arXiv-2602.06616-b31b1b.svg" alt="arXiv" /></a> |
 | **[Malicious Agent Skills in the Wild: A Large-Scale Security Empirical Study](https://arxiv.org/pdf/2602.06547v1)** - Analyzes 98K agent skills from community registries to study the prevalence and nature of malicious third-party agent plugins. | <a href="https://arxiv.org/abs/2602.06547v1"><img src="https://img.shields.io/badge/arXiv-2602.06547-b31b1b.svg" alt="arXiv" /></a> |
