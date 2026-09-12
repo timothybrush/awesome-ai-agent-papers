@@ -1,5 +1,3 @@
-
-
 <div align="center">
 
 <a href="https://github.com/VoltAgent/voltagent">
@@ -61,6 +59,8 @@ Hundreds of papers are published on arXiv every week, and a growing number of th
 - [Memory & RAG](#memory--rag) (57)
 - [Eval & Observability](#eval--observability) (80)
 - [Agent Tooling](#agent-tooling) (95)
+- [AI Agent Security](#ai-agent-security) (83)
+- [Agent Tooling](#agent-tooling) (100)
 - [AI Agent Security](#ai-agent-security) (82)
 
 <br>
@@ -234,6 +234,7 @@ Stop building from a blank page. [LaunchKit](https://launchkit.getdesign.md/) gi
 
 | Paper | arXiv ID |
 |---|:---:|
+| **[Why Do AI Agents Break Rules? How Framing, Context, and Social Signals Shape Compliance](https://arxiv.org/pdf/2608.12323)** - Puts twelve LLMs in a procurement-agent role under one environmental rule and varies how the rule is framed, what the penalty is, and who pushes back. Compliance spans 46 percentage points across models under identical conditions, and stating the fine, manager demands, peer outcomes, and user pressure each raise violation rates. | <a href="https://arxiv.org/abs/2608.12323"><img src="https://img.shields.io/badge/arXiv-2608.12323-b31b1b.svg" alt="arXiv" /></a> |
 | **[PerspectiveGap: A Benchmark for Multi-Agent Orchestration Prompting](https://arxiv.org/pdf/2606.08878)** - A 110-scenario benchmark testing whether LLMs can compose orchestration prompts that distribute context to sub-agents without information leakage. Across 10 topologies and 27 commercial models, GPT-5.5 leads with 62% pass rate while the average is 14.9%. | <a href="https://arxiv.org/abs/2606.08878"><img src="https://img.shields.io/badge/arXiv-2606.08878-b31b1b.svg" alt="arXiv" /></a> |
 | **[RewardHarness: Self-Evolving Agentic Post-Training](https://arxiv.org/pdf/2605.08703)** - Evolves a library of scoring skills and tools from preference examples, then uses a frozen vision-language sub-agent to evaluate image edits and produce a reward for GRPO training. | <a href="https://arxiv.org/abs/2605.08703"><img src="https://img.shields.io/badge/arXiv-2605.08703-b31b1b.svg" alt="arXiv" /></a> |
 | **[ClawBench: Evaluating Browser Agents on Live Production Websites with Submission-Interception](https://arxiv.org/abs/2604.08523)** - Benchmarks browser agents on 283 everyday tasks (V1 153 + V2 130) across 163 live production sites, with a Chrome-extension plus CDP layer that blocks only the final write request so agents can run end-to-end on real sites without real-world side effects. Two-stage scoring (interception + LLM judge); leaderboard at https://claw-bench.com. | <a href="https://arxiv.org/abs/2604.08523"><img src="https://img.shields.io/badge/arXiv-2604.08523-b31b1b.svg" alt="arXiv" /></a> |
@@ -325,11 +326,14 @@ Stop building from a blank page. [LaunchKit](https://launchkit.getdesign.md/) gi
 
 <details id="agent-tooling">
 <summary><h3 style="display:inline">Agent Tooling (98)</h3></summary>
+<summary><h3 style="display:inline">Agent Tooling (100)</h3></summary>
 
 <br>
 
 | Paper | arXiv ID |
 |---|:---:|
+| **[Steer, Don't Solve: Training Small Critic Models for Large Code Agents](https://arxiv.org/pdf/2606.21811)** - Trains 4B and 8B critic models with SFT and DPO to identify errors in a coding agent's trajectory and give high-level guidance every few steps at inference time, without producing actions. The critics improve SWE-bench Verified resolve rates of six larger agents, by up to 16 points, and lower inference cost for some agents by finishing tasks in fewer steps. | <a href="https://arxiv.org/abs/2606.21811"><img src="https://img.shields.io/badge/arXiv-2606.21811-b31b1b.svg" alt="arXiv" /></a> |
+| **[Training Agents to Evolve with Their Harness: TaoLive Digital Avatar Agent Technical Report](https://arxiv.org/pdf/2608.15763v3)** - Trains a compact agent while varying its Skills, tool schemas, prompts, and Hooks, so it can handle later harness changes without retraining for each edit. Tests developer-reviewed updates with frozen model weights and reports a live-commerce deployment. | <a href="https://arxiv.org/abs/2608.15763"><img src="https://img.shields.io/badge/arXiv-2608.15763-b31b1b.svg" alt="arXiv" /></a> |
 | **[Graph of States: Solving Abductive Tasks with Large Language Models](https://arxiv.org/pdf/2603.21250)** - Organizes multi-agent reasoning around a shared causal graph of hypotheses, evidence, confidence scores, and causal links, while a state machine controls when agents investigate, refine, backtrack, or stop. Evaluated on medical and distributed-system diagnosis tasks. |<a href="https://arxiv.org/abs/2603.21250"><img src="https://img.shields.io/badge/arXiv-2607.08983-b31b1b.svg" alt="arXiv" /></a> |
 | **[SCATE: Learning to Supervise Coding Agents for Cost-Effective Test Generation](https://arxiv.org/pdf/2607.08983)** - Replaces the human who keeps prodding a coding agent to write more tests with a contextual bandit that picks the next testing action from current coverage and class testability signals. Driving GEMINI-CLI, it reaches 32.3% higher line coverage and 30.9% higher branch coverage than the agent on its own, and it learns a different policy when the same setup drives CLAUDE CODE. | <a href="https://arxiv.org/abs/2607.08983"><img src="https://img.shields.io/badge/arXiv-2607.08983-b31b1b.svg" alt="arXiv" /></a> |
 | **[Ouroboros: A Self-Developing Frontier Coding Agent with Reviewed Core Evolution](https://arxiv.org/pdf/2608.08311)** - Documents a coding-agent harness that can update its tools, prompts, context assembly, and core code through reviewed commits, with a 161-day live deployment. Reports frozen-snapshot results of 86.74% on Terminal-Bench 2.1 and 90.69% on OSWorld-Verified. | <a href="https://arxiv.org/abs/2608.08311"><img src="https://img.shields.io/badge/arXiv-2608.08311-b31b1b.svg" alt="arXiv" /></a> |
@@ -436,12 +440,13 @@ Stop building from a blank page. [LaunchKit](https://launchkit.getdesign.md/) gi
 <br>
 
 <details id="ai-agent-security">
-<summary><h3 style="display:inline">AI Agent Security (82)</h3></summary>
+<summary><h3 style="display:inline">AI Agent Security (83)</h3></summary>
 
 <br>
 
 | Paper | arXiv ID |
 |---|:---:|
+| **[One Polluted Page Is Enough: Evaluating Web Content Pollution in LLM Recommenders](https://arxiv.org/pdf/2606.13610)** - Tests whether search-augmented LLMs recommend brands that do not exist, by swapping the real brand name inside the top-ranked pages the model retrieves and changing nothing else. Across 12 models, one altered page at rank 1 produces a fake recommendation in up to 27% of cases, and altering the top three pages reaches 73.8%. | <a href="https://arxiv.org/abs/2606.13610"><img src="https://img.shields.io/badge/arXiv-2606.13610-b31b1b.svg" alt="arXiv" /></a> |
 | **[Internal Safety Collapse in Frontier Large Language Models](https://arxiv.org/pdf/2603.23509)** - Reveals that AI agents produce harmful content (toxic text, exploits, dangerous data) as a side effect of completing normal professional tasks — no adversarial prompting needed. At least one mode (single-turn, ICL, or agentic) succeeds on every frontier model tested. 56 cross-domain scenarios across 8+ disciplines. | <a href="https://arxiv.org/abs/2603.23509"><img src="https://img.shields.io/badge/arXiv-2603.23509-b31b1b.svg" alt="arXiv" /></a> |
 | **[Confundo: Learning to Generate Robust Poison for Practical RAG Systems](https://arxiv.org/pdf/2602.06616v1)** - Trains an LLM to generate RAG poison that survives real-world content processing and query variation for stress-testing RAG defenses. | <a href="https://arxiv.org/abs/2602.06616v1"><img src="https://img.shields.io/badge/arXiv-2602.06616-b31b1b.svg" alt="arXiv" /></a> |
 | **[Malicious Agent Skills in the Wild: A Large-Scale Security Empirical Study](https://arxiv.org/pdf/2602.06547v1)** - Analyzes 98K agent skills from community registries to study the prevalence and nature of malicious third-party agent plugins. | <a href="https://arxiv.org/abs/2602.06547v1"><img src="https://img.shields.io/badge/arXiv-2602.06547-b31b1b.svg" alt="arXiv" /></a> |
