@@ -1,5 +1,3 @@
-
-
 <div align="center">
 
 <a href="https://github.com/VoltAgent/voltagent">
@@ -60,7 +58,7 @@ Hundreds of papers are published on arXiv every week, and a growing number of th
 - [Multi-Agent](#multi-agent) (54)
 - [Memory & RAG](#memory--rag) (57)
 - [Eval & Observability](#eval--observability) (80)
-- [Agent Tooling](#agent-tooling) (95)
+- [Agent Tooling](#agent-tooling) (100)
 - [AI Agent Security](#ai-agent-security) (82)
 
 <br>
@@ -325,12 +323,13 @@ Stop building from a blank page. [LaunchKit](https://launchkit.getdesign.md/) gi
 <br>
 
 <details id="agent-tooling">
-<summary><h3 style="display:inline">Agent Tooling (97)</h3></summary>
+<summary><h3 style="display:inline">Agent Tooling (100)</h3></summary>
 
 <br>
 
 | Paper | arXiv ID |
 |---|:---:|
+| **[Training Agents to Evolve with Their Harness: TaoLive Digital Avatar Agent Technical Report](https://arxiv.org/pdf/2608.15763v3)** - Trains a compact agent while varying its Skills, tool schemas, prompts, and Hooks, so it can handle later harness changes without retraining for each edit. Tests developer-reviewed updates with frozen model weights and reports a live-commerce deployment. | <a href="https://arxiv.org/abs/2608.15763"><img src="https://img.shields.io/badge/arXiv-2608.15763-b31b1b.svg" alt="arXiv" /></a> |
 | **[Graph of States: Solving Abductive Tasks with Large Language Models](https://arxiv.org/pdf/2603.21250)** - Organizes multi-agent reasoning around a shared causal graph of hypotheses, evidence, confidence scores, and causal links, while a state machine controls when agents investigate, refine, backtrack, or stop. Evaluated on medical and distributed-system diagnosis tasks. |<a href="https://arxiv.org/abs/2603.21250"><img src="https://img.shields.io/badge/arXiv-2607.08983-b31b1b.svg" alt="arXiv" /></a> |
 | **[SCATE: Learning to Supervise Coding Agents for Cost-Effective Test Generation](https://arxiv.org/pdf/2607.08983)** - Replaces the human who keeps prodding a coding agent to write more tests with a contextual bandit that picks the next testing action from current coverage and class testability signals. Driving GEMINI-CLI, it reaches 32.3% higher line coverage and 30.9% higher branch coverage than the agent on its own, and it learns a different policy when the same setup drives CLAUDE CODE. | <a href="https://arxiv.org/abs/2607.08983"><img src="https://img.shields.io/badge/arXiv-2607.08983-b31b1b.svg" alt="arXiv" /></a> |
 | **[Ouroboros: A Self-Developing Frontier Coding Agent with Reviewed Core Evolution](https://arxiv.org/pdf/2608.08311)** - Documents a coding-agent harness that can update its tools, prompts, context assembly, and core code through reviewed commits, with a 161-day live deployment. Reports frozen-snapshot results of 86.74% on Terminal-Bench 2.1 and 90.69% on OSWorld-Verified. | <a href="https://arxiv.org/abs/2608.08311"><img src="https://img.shields.io/badge/arXiv-2608.08311-b31b1b.svg" alt="arXiv" /></a> |
